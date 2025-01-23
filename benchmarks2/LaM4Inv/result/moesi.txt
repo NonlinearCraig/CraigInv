@@ -1,0 +1,9 @@
+Begin_process:   ./CraigBenchmarks/benchmarks2/c/moesi.c
+GPT Answer: ['assert(t == m + s + e + i + o);', 'assert(m == 0);', 'assert(m == 0 || m == 1);', 'assert(t == i + o + s + e + m);']
+AnsSet: ['(m == 0)||(m == 1)']
+Candidate: assert(t == m + s + e + i + o);
+SMTLIB2: (assert (= t (+ (+ (+ (+ m s) e) i) o)))
+ (= t (+ (+ (+ (+ m s) e) i) o))
+The answer is :  assert(t == m + s + e + i + o);
+Time cost is :  16.64191198348999
+The proposal times is :  1

@@ -1,0 +1,61 @@
+Begin Solving...
+After 0.328269 seconds
+    1 iteration solution is found. lambda is 0.8333280780 
+-3.00000063052+4.00000033291*x2-x1^2-x2^2
+After 0.627803 seconds
+    2 iteration solution is found. lambda is 0.0668623755 
+-3.00000296907+4.00000267567*x2-x1^2-x2^2
+After 0.918999 seconds
+    3 iteration solution is found. lambda is 0.0668623755 
+-3.00000296859+4.0000026735*x2-x1^2-x2^2
+After 1.219415 seconds
+    4 iteration solution is found. lambda is 0.0668628987 
+-3.00000023058+4.00000020459*x2-x1^2-x2^2
+After 1.532588 seconds
+    5 iteration solution is found. lambda is 0.0668623755 
+-3.00000297269+4.00000267956*x2-x1^2-x2^2
+After 1.844578 seconds
+    6 iteration solution is found. lambda is 0.0668623751 
+-3.00000297434+4.00000268588*x2-x1^2-x2^2
+After 2.173955 seconds
+    7 iteration solution is found. lambda is 0.0668623756 
+-3.00000296619+4.00000267142*x2-x1^2-x2^2
+After 2.504994 seconds
+    8 iteration solution is found. lambda is 0.0668623755 
+-3.00000296768+4.00000267272*x2-x1^2-x2^2
+After 2.843122 seconds
+    9 iteration solution is found. lambda is 0.0668623755 
+-3.0000029674+4.00000267125*x2-x1^2-x2^2
+After 3.189938 seconds
+   10 iteration solution is found. lambda is 0.0668623757 
+-3.00000296839+4.0000026735*x2-x1^2-x2^2
+After 3.546117 seconds
+   11 iteration solution is found. lambda is 0.0668623756 
+-3.0000029696+4.00000267355*x2-x1^2-x2^2
+After 3.915327 seconds
+   12 iteration solution is found. lambda is 0.0668623754 
+-3.00000296942+4.00000267442*x2-x1^2-x2^2
+After 4.297042 seconds
+   13 iteration solution is found. lambda is 0.0668623755 
+-3.00000296759+4.00000267264*x2-x1^2-x2^2
+After 4.742972 seconds
+   14 iteration solution is found. lambda is 0.0668623753 
+-3.00000297018+4.00000267569*x2-x1^2-x2^2
+After 5.137422 seconds
+   15 iteration solution is found. lambda is 0.0668623755 
+-3.00000296791+4.00000267279*x2-x1^2-x2^2
+After 5.534855 seconds
+   16 iteration solution is found. lambda is 0.0668623753 
+-3.00000297007+4.00000267418*x2-x1^2-x2^2
+After 5.949619 seconds
+   17 iteration solution is found. lambda is 0.0668623754 
+-3.00000297125+4.00000267792*x2-x1^2-x2^2
+After 6.354856 seconds
+   18 iteration solution is found. lambda is 0.0668623754 
+-3.00000296835+4.00000267334*x2-x1^2-x2^2
+After 6.776687 seconds
+   19 iteration solution is found. lambda is 0.0668623755 
+-3.00000296754+4.00000267198*x2-x1^2-x2^2
+After 7.202192 seconds
+   20 iteration solution is found. lambda is 0.0668623756 
+-3.00000296681+4.00000267097*x2-x1^2-x2^2

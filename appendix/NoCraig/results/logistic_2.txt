@@ -1,0 +1,61 @@
+Begin Solving...
+After 0.222848 seconds
+    1 iteration solution is found. lambda is 0.0042593967 
+1+0.333333608467*x1-0.666666833367*x1^2
+After 0.409759 seconds
+    2 iteration solution is found. lambda is -0.0000000065 
+1+0.510985278633*x1-1.15599070066*x1^2
+After 0.591180 seconds
+    3 iteration solution is found. lambda is -0.0000000039 
+1+0.529545953289*x1-1.18256464853*x1^2
+After 0.776590 seconds
+    4 iteration solution is found. lambda is -0.0000000039 
+1+0.533238487857*x1-1.18502141727*x1^2
+After 0.957393 seconds
+    5 iteration solution is found. lambda is -0.0000000039 
+1+0.534002463527*x1-1.18543154237*x1^2
+After 1.141135 seconds
+    6 iteration solution is found. lambda is -0.0000000037 
+1+0.53374955615*x1-1.18461875472*x1^2
+After 1.326600 seconds
+    7 iteration solution is found. lambda is -0.0000000038 
+1+0.533946572819*x1-1.18509941627*x1^2
+After 1.514984 seconds
+    8 iteration solution is found. lambda is -0.0000000038 
+1+0.533972100835*x1-1.18509299083*x1^2
+After 1.712799 seconds
+    9 iteration solution is found. lambda is -0.0000000038 
+1+0.534134158287*x1-1.1854164022*x1^2
+After 1.913838 seconds
+   10 iteration solution is found. lambda is -0.0000000038 
+1+0.534124570365*x1-1.18536800387*x1^2
+After 2.112439 seconds
+   11 iteration solution is found. lambda is -0.0000000037 
+1+0.533967856352*x1-1.18503327469*x1^2
+After 2.308047 seconds
+   12 iteration solution is found. lambda is -0.0000000038 
+1+0.533950044516*x1-1.18502747269*x1^2
+After 2.501641 seconds
+   13 iteration solution is found. lambda is -0.0000000040 
+1+0.53431379674*x1-1.185827129*x1^2
+After 2.692861 seconds
+   14 iteration solution is found. lambda is -0.0000000038 
+1+0.534055775359*x1-1.18517756536*x1^2
+After 2.893853 seconds
+   15 iteration solution is found. lambda is -0.0000000039 
+1+0.534171039823*x1-1.18550379768*x1^2
+After 3.087103 seconds
+   16 iteration solution is found. lambda is -0.0000000039 
+1+0.534161730003*x1-1.18542955706*x1^2
+After 3.282696 seconds
+   17 iteration solution is found. lambda is -0.0000000038 
+1+0.534012931185*x1-1.18512422888*x1^2
+After 3.473364 seconds
+   18 iteration solution is found. lambda is -0.0000000038 
+1+0.534082683351*x1-1.18528954633*x1^2
+After 3.666949 seconds
+   19 iteration solution is found. lambda is -0.0000000038 
+1+0.534030923302*x1-1.18519263559*x1^2
+After 3.866032 seconds
+   20 iteration solution is found. lambda is -0.0000000038 
+1+0.534133958516*x1-1.18544546444*x1^2

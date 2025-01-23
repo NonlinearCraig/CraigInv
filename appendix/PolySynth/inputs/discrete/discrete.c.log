@@ -1,0 +1,60 @@
+##########
+Execution start time: 2024-01-22 23:10:06.091860
+Constraint Pair Generation Time: 0.04173183 s
+QP Generation Time: 0.24207234s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-01-22 23:22:42.569357
+Constraint Pair Generation Time: 0.05224466 s
+QP Generation Time: 0.28306675s
+QP with handelman size: 39
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-01-22 23:46:49.037273
+Constraint Pair Generation Time: 0.04034638 s
+QP Generation Time: 0.24483514s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-01-22 23:51:29.144313
+Constraint Pair Generation Time: 0.04784513 s
+QP Generation Time: 0.24778676s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-01-23 00:56:23.559453
+Constraint Pair Generation Time: 0.04338622 s
+QP Generation Time: 0.24356818s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-06-27 21:48:16.372525
+##########
+Execution start time: 2024-06-27 21:50:21.137551
+##########
+Execution start time: 2024-06-27 22:01:51.905394
+Constraint Pair Generation Time: 0.04198122 s
+QP Generation Time: 0.23471689s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48
+##########
+Execution start time: 2024-06-27 22:18:37.928609
+Constraint Pair Generation Time: 0.04215932 s
+QP Generation Time: 0.23048830s
+QP with handelman size: 27
+QP without handelman size: 45
+Number of L-vars with handelman: 54
+Number of L-vars without handelman: 48

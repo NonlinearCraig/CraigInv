@@ -1,0 +1,61 @@
+Begin Solving...
+After 0.275983 seconds
+    1 iteration solution is found. lambda is 20.0952867874 
+2.99999936818+1.99999937493*x1-x1^2
+After 0.486066 seconds
+    2 iteration solution is found. lambda is 0.0004716406 
+3.07795804583+2.07786480444*x1-x1^2
+After 0.694463 seconds
+    3 iteration solution is found. lambda is 0.0004366275 
+3.17554689294+2.17543900179*x1-x1^2
+After 0.913176 seconds
+    4 iteration solution is found. lambda is 0.0003884077 
+3.29891938371+2.29891079126*x1-x1^2
+After 1.129754 seconds
+    5 iteration solution is found. lambda is 0.0003228973 
+3.45284478913+2.45280983324*x1-x1^2
+After 1.346878 seconds
+    6 iteration solution is found. lambda is 0.0002540761 
+3.52665475627+2.52648417431*x1-x1^2
+After 1.569629 seconds
+    7 iteration solution is found. lambda is -0.0000000921 
+3.52941432713+2.52562279418*x1-x1^2
+After 1.793622 seconds
+    8 iteration solution is found. lambda is -0.0000000886 
+3.5297109052+2.52549063262*x1-x1^2
+After 2.008049 seconds
+    9 iteration solution is found. lambda is -0.0000000882 
+3.52993173462+2.52540002174*x1-x1^2
+After 2.226046 seconds
+   10 iteration solution is found. lambda is -0.0000000876 
+3.53006180166+2.52534757286*x1-x1^2
+After 2.443172 seconds
+   11 iteration solution is found. lambda is -0.0000000881 
+3.53013972031+2.52531652718*x1-x1^2
+After 2.672276 seconds
+   12 iteration solution is found. lambda is -0.0000000870 
+3.53017098768+2.52530317903*x1-x1^2
+After 2.891786 seconds
+   13 iteration solution is found. lambda is -0.0000000877 
+3.53019515659+2.52529360032*x1-x1^2
+After 3.116357 seconds
+   14 iteration solution is found. lambda is -0.0000000880 
+3.53020057555+2.52529056128*x1-x1^2
+After 3.336824 seconds
+   15 iteration solution is found. lambda is -0.0000000868 
+3.53021058343+2.52528684302*x1-x1^2
+After 3.565110 seconds
+   16 iteration solution is found. lambda is -0.0000000874 
+3.53020933706+2.52528706055*x1-x1^2
+After 3.791789 seconds
+   17 iteration solution is found. lambda is -0.0000000872 
+3.530210264+2.5252867404*x1-x1^2
+After 4.016366 seconds
+   18 iteration solution is found. lambda is -0.0000000869 
+3.53020879043+2.52528735226*x1-x1^2
+After 4.245524 seconds
+   19 iteration solution is found. lambda is -0.0000000874 
+3.53021124863+2.52528614991*x1-x1^2
+After 4.480914 seconds
+   20 iteration solution is found. lambda is -0.0000000875 
+3.53021368041+2.52528582885*x1-x1^2

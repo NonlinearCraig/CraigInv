@@ -1,0 +1,19 @@
+Benchmark,,Time (seconds)
+berkeley,,0.39
+cohendiv,,600.057
+cohencu,,600.014
+euclidex2,,600.023
+fermat2,,0.304
+firefly,,0.483
+illinois,,600.007
+lcm,,0.424
+mannadiv,,0.298
+mesi,,0.933
+moesi,,0.563
+petter,,600.015
+readerswriters,,600.006
+freire1,,600.095
+freire2,,600.015
+sqrt,,600.017
+z3sqrt,,600.015
+wensley,,600.025

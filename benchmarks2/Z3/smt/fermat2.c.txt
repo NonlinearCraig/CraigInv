@@ -1,0 +1,13 @@
+; benchmark generated from python API
+(set-info :status unknown)
+(declare-fun _a_0_ () Real)
+(declare-fun _a_1_ () Real)
+(assert
+ (forall ((N_0 Real) (R_0 Real) (r_0 Real) )(let (($x50 (>= (+ (* N_0 _a_1_) _a_0_) 0.0)))
+ (let (($x51 (and $x50)))
+ (let (($x57 (=> (and $x50 (>= (- r_0 1.0) 0.0) (>= (- r_0) 0.0)) $x51)))
+ (let (($x76 (and (>= (- N_0 1.0) 0.0) (>= (- (+ (- N_0 (^ R_0 2.0)) (* 2.0 R_0)) 2.0) 0.0) (>= (+ (- N_0) (^ R_0 2.0)) 0.0))))
+ (and (=> $x76 $x51) (=> (and $x50 (>= (- 1.0 r_0) 0.0)) (and true)) (=> (and $x50 (>= (- r_0 1.0) 0.0) (>= r_0 0.0)) $x51) $x57))))))
+ )
+(check-sat)
+

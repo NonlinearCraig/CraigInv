@@ -1,0 +1,17 @@
+##########
+Execution start time: 2024-11-02 19:48:02.939871
+Constraint Pair Generation Time: 0.04995036 s
+QP Generation Time: 1.19970107s
+QP with handelman size: 330
+QP without handelman size: 115
+Number of L-vars with handelman: 633
+Number of L-vars without handelman: 277
+##########
+Execution start time: 2024-11-02 19:49:02.356887
+Constraint Pair Generation Time: 0.05043602 s
+QP Generation Time: 1.19296837s
+QP with handelman size: 330
+QP without handelman size: 115
+Number of L-vars with handelman: 633
+Number of L-vars without handelman: 277
+Z3 with Heuristics Solving Time: 8.39940119s

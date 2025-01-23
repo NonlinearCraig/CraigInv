@@ -1,0 +1,65 @@
+
+run_all
+========bound_2========
+benchmark is bound_2
+Begin Solving...
+After 0.359905 seconds
+    1 iteration solution is found. lambda is -0.0000000031 
+3.62019210757-2.66970277299*x1^2-1.83935955843*x2^2
+After 0.722650 seconds
+    2 iteration solution is found. lambda is -0.0000000026 
+4.01894295567-2.78922201157*x1^2-2.46449324225*x2^2
+After 1.076403 seconds
+    3 iteration solution is found. lambda is -0.0000000027 
+3.97535020519-2.76346020892*x1^2-2.49378193788*x2^2
+After 1.436741 seconds
+    4 iteration solution is found. lambda is -0.0000000027 
+3.96960944611-2.76026697685*x1^2-2.49724677258*x2^2
+After 1.810808 seconds
+    5 iteration solution is found. lambda is -0.0000000027 
+3.97653252344-2.76522579351*x1^2-2.50263782598*x2^2
+After 2.191028 seconds
+    6 iteration solution is found. lambda is -0.0000000027 
+3.95617198321-2.7510160412*x1^2-2.48973042231*x2^2
+After 2.579527 seconds
+    7 iteration solution is found. lambda is -0.0000000027 
+3.99072902865-2.77504369329*x1^2-2.51132989491*x2^2
+After 2.974603 seconds
+    8 iteration solution is found. lambda is -0.0000000027 
+3.96075013427-2.7542114433*x1^2-2.49271959888*x2^2
+After 3.380681 seconds
+    9 iteration solution is found. lambda is -0.0000000027 
+3.96171365738-2.75488746733*x1^2-2.49319984283*x2^2
+After 3.806704 seconds
+   10 iteration solution is found. lambda is -0.0000000027 
+3.95701524765-2.75160367212*x1^2-2.49017428116*x2^2
+After 4.233274 seconds
+   11 iteration solution is found. lambda is -0.0000000027 
+3.96957549368-2.76039680398*x1^2-2.49829572485*x2^2
+After 4.678871 seconds
+   12 iteration solution is found. lambda is -0.0000000027 
+3.95380076915-2.74940548324*x1^2-2.48837359515*x2^2
+After 5.134187 seconds
+   13 iteration solution is found. lambda is -0.0000000027 
+3.96347803917-2.75609583152*x1^2-2.49419829848*x2^2
+After 5.596387 seconds
+   14 iteration solution is found. lambda is -0.0000000027 
+3.96779983782-2.75910137118*x1^2-2.49696053677*x2^2
+After 6.077159 seconds
+   15 iteration solution is found. lambda is -0.0000000027 
+3.95921245552-2.75315484347*x1^2-2.4916808517*x2^2
+After 6.572458 seconds
+   16 iteration solution is found. lambda is -0.0000000027 
+3.96306971779-2.75586103155*x1^2-2.49416440036*x2^2
+After 7.073772 seconds
+   17 iteration solution is found. lambda is -0.0000000027 
+3.96871592262-2.75977484043*x1^2-2.49769548203*x2^2
+After 7.587893 seconds
+   18 iteration solution is found. lambda is -0.0000000027 
+3.97463283087-2.76385329548*x1^2-2.50130403736*x2^2
+After 8.117882 seconds
+   19 iteration solution is found. lambda is -0.0000000027 
+3.96841826449-2.75958661892*x1^2-2.49764349617*x2^2
+After 8.673433 seconds
+   20 iteration solution is found. lambda is -0.0000000027 
+3.96298705336-2.75576788608*x1^2-2.4940285157*x2^2

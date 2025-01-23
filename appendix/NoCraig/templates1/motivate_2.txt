@@ -1,0 +1,178 @@
+Begin Solving...
+历时 2.800129 秒。
+    1 iteration solution is found. lambda is -0.0000000002 
+-0.00421202321825+3.2188312274e-05*x2+0.001807419105*x3-0.00232533395651*x2^2
+历时 3.991136 秒。
+    2 iteration solution is found. lambda is -0.0000000000 
+-0.0112898045349-3.16121041235e-06*x2+0.00472981901409*x3-0.00484281433875*x2^2
+历时 5.034479 秒。
+    3 iteration solution is found. lambda is -0.0000000003 
+-0.0332710925171-0.000222754909357*x2+0.0137402125923*x3-0.011150397739*x2^2
+历时 6.027915 秒。
+    4 iteration solution is found. lambda is -0.0000000017 
+-12.9155602701-0.896604366532*x2+5.37030192108*x3-3.56657256065*x2^2
+历时 7.111243 秒。
+    5 iteration solution is found. lambda is -0.0000000009 
+-12.545733893-0.370076821007*x2+5.67241209638*x3-3.73313912223*x2^2
+历时 8.219854 秒。
+    6 iteration solution is found. lambda is -0.0000000008 
+-12.4828001752-0.0947052298758*x2+5.74353457564*x3-3.64687984862*x2^2
+历时 9.412645 秒。
+    7 iteration solution is found. lambda is -0.0000000008 
+-12.425837393+0.0402283121154*x2+5.77763654023*x3-3.59927575675*x2^2
+历时 10.671612 秒。
+    8 iteration solution is found. lambda is -0.0000000008 
+-12.4253640705+0.107363387489*x2+5.80310662357*x3-3.58416971816*x2^2
+历时 12.196037 秒。
+    9 iteration solution is found. lambda is -0.0000000008 
+-12.4033203456+0.141642705171*x2+5.81130147369*x3-3.57139945968*x2^2
+历时 13.768494 秒。
+   10 iteration solution is found. lambda is -0.0000000007 
+-12.4478732598+0.160287696468*x2+5.83944602102*x3-3.58026867957*x2^2
+历时 15.740254 秒。
+   11 iteration solution is found. lambda is -0.0000000008 
+-12.471462551+0.189088421027*x2+5.89091381504*x3-3.5811176678*x2^2
+历时 18.071796 秒。
+   12 iteration solution is found. lambda is -0.0000000008 
+-12.2562667359+0.199432559187*x2+5.77367055578*x3-3.51853668746*x2^2
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/recovermonoms')" style="font-weight:bold">sdpvar/recovermonoms</a>
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/replace', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m', 116)" style="font-weight:bold">sdpvar/replace</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m',116,0)">第 116 行</a>)
+    base = recovermonoms(local_monoms_left(:,used_left),recover(used_left));
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('noCraig', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m', 55)" style="font-weight:bold">noCraig</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m',55,0)">第 55 行</a>)
+    ht_y=replace(h_x,a,p_val);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m', 14)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m',14,0)">第 14 行</a>)
+        noCraig(benchmarks(i))
+} 
+run_all
+
+benchmarks = 
+
+    "motivate_2"
+
+========motivate_2========
+benchmark is motivate_2
+Begin Solving...
+历时 0.837070 秒。
+    1 iteration solution is found. lambda is -0.0000000002 
+-0.00421202321825+3.2188312274e-05*x2+0.001807419105*x3-0.00232533395651*x2^2
+历时 1.675787 秒。
+    2 iteration solution is found. lambda is -0.0000000000 
+-0.0112898045349-3.16121041235e-06*x2+0.00472981901409*x3-0.00484281433875*x2^2
+历时 2.586819 秒。
+    3 iteration solution is found. lambda is -0.0000000003 
+-0.0332710925171-0.000222754909357*x2+0.0137402125923*x3-0.011150397739*x2^2
+历时 3.532639 秒。
+    4 iteration solution is found. lambda is -0.0000000017 
+-12.9155602701-0.896604366532*x2+5.37030192108*x3-3.56657256065*x2^2
+历时 4.574057 秒。
+    5 iteration solution is found. lambda is -0.0000000009 
+-12.545733893-0.370076821007*x2+5.67241209638*x3-3.73313912223*x2^2
+历时 5.724843 秒。
+    6 iteration solution is found. lambda is -0.0000000008 
+-12.4828001752-0.0947052298758*x2+5.74353457564*x3-3.64687984862*x2^2
+历时 6.886607 秒。
+    7 iteration solution is found. lambda is -0.0000000008 
+-12.425837393+0.0402283121154*x2+5.77763654023*x3-3.59927575675*x2^2
+历时 8.125681 秒。
+    8 iteration solution is found. lambda is -0.0000000008 
+-12.4253640705+0.107363387489*x2+5.80310662357*x3-3.58416971816*x2^2
+历时 9.635586 秒。
+    9 iteration solution is found. lambda is -0.0000000008 
+-12.4033203456+0.141642705171*x2+5.81130147369*x3-3.57139945968*x2^2
+历时 12.949883 秒。
+   10 iteration solution is found. lambda is -0.0000000007 
+-12.4478732598+0.160287696468*x2+5.83944602102*x3-3.58026867957*x2^2
+历时 16.835323 秒。
+   11 iteration solution is found. lambda is -0.0000000008 
+-12.471462551+0.189088421027*x2+5.89091381504*x3-3.5811176678*x2^2
+历时 21.451767 秒。
+   12 iteration solution is found. lambda is -0.0000000008 
+-12.2562667359+0.199432559187*x2+5.77367055578*x3-3.51853668746*x2^2
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+要串联的数组的维度不一致。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/recovermonoms', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\recovermonoms.m', 60)" style="font-weight:bold">sdpvar/recovermonoms</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\recovermonoms.m',60,0)">第 60 行</a>)
+                 monom.lmi_variables = [monom.lmi_variables previous_variable];
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('coefficients', 'D:\Program Files\MATLAB\package\YALMIP-master\extras\coefficients.m', 82)" style="font-weight:bold">coefficients</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\extras\coefficients.m',82,0)">第 82 行</a>)
+            v = recovermonoms(exponent_p(keepthese,find(~ismember(allvar,t))),recover(xvar));
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nonlinearreplace', 'D:\Program Files\MATLAB\package\YALMIP-master\extras\nonlinearreplace.m', 31)" style="font-weight:bold">nonlinearreplace</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\extras\nonlinearreplace.m',31,0)">第 31 行</a>)
+            [coeffs,base] = coefficients(X(ii,jj),Y(kk));
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('variable_replace', 'D:\Program Files\MATLAB\package\YALMIP-master\extras\variable_replace.m', 63)" style="font-weight:bold">variable_replace</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\extras\variable_replace.m',63,0)">第 63 行</a>)
+        Z = nonlinearreplace(X,Y,W);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/replace', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m', 46)" style="font-weight:bold">sdpvar/replace</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m',46,0)">第 46 行</a>)
+    Z = variable_replace(X,Y,W);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('noCraig', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m', 56)" style="font-weight:bold">noCraig</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m',56,0)">第 56 行</a>)
+    ht_y=replace(ht_y,xvars,y_vars);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m', 14)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m',14,0)">第 14 行</a>)
+        noCraig(benchmarks(i))
+} 
+run_all
+
+benchmarks = 
+
+    "motivate_2"
+
+========motivate_2========
+benchmark is motivate_2
+Begin Solving...
+历时 0.890250 秒。
+    1 iteration solution is found. lambda is -0.0000000002 
+-0.00421202321825+3.2188312274e-05*x2+0.001807419105*x3-0.00232533395651*x2^2
+历时 1.708411 秒。
+    2 iteration solution is found. lambda is -0.0000000000 
+-0.0112898045349-3.16121041235e-06*x2+0.00472981901409*x3-0.00484281433875*x2^2
+历时 2.579077 秒。
+    3 iteration solution is found. lambda is -0.0000000003 
+-0.0332710925171-0.000222754909357*x2+0.0137402125923*x3-0.011150397739*x2^2
+历时 3.516284 秒。
+    4 iteration solution is found. lambda is -0.0000000017 
+-12.9155602701-0.896604366532*x2+5.37030192108*x3-3.56657256065*x2^2
+历时 4.521692 秒。
+    5 iteration solution is found. lambda is -0.0000000009 
+-12.545733893-0.370076821007*x2+5.67241209638*x3-3.73313912223*x2^2
+历时 5.597405 秒。
+    6 iteration solution is found. lambda is -0.0000000008 
+-12.4828001752-0.0947052298758*x2+5.74353457564*x3-3.64687984862*x2^2
+历时 6.780879 秒。
+    7 iteration solution is found. lambda is -0.0000000008 
+-12.425837393+0.0402283121154*x2+5.77763654023*x3-3.59927575675*x2^2
+历时 8.124768 秒。
+    8 iteration solution is found. lambda is -0.0000000008 
+-12.4253640705+0.107363387489*x2+5.80310662357*x3-3.58416971816*x2^2
+历时 9.653593 秒。
+    9 iteration solution is found. lambda is -0.0000000008 
+-12.4033203456+0.141642705171*x2+5.81130147369*x3-3.57139945968*x2^2
+历时 11.298372 秒。
+   10 iteration solution is found. lambda is -0.0000000007 
+-12.4478732598+0.160287696468*x2+5.83944602102*x3-3.58026867957*x2^2
+历时 13.289599 秒。
+   11 iteration solution is found. lambda is -0.0000000008 
+-12.471462551+0.189088421027*x2+5.89091381504*x3-3.5811176678*x2^2
+历时 15.721238 秒。
+   12 iteration solution is found. lambda is -0.0000000008 
+-12.2562667359+0.199432559187*x2+5.77367055578*x3-3.51853668746*x2^2
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+要串联的数组的维度不一致。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/recovermonoms', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\recovermonoms.m', 60)" style="font-weight:bold">sdpvar/recovermonoms</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\recovermonoms.m',60,0)">第 60 行</a>)
+                 monom.lmi_variables = [monom.lmi_variables previous_variable];
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/replace', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m', 116)" style="font-weight:bold">sdpvar/replace</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\replace.m',116,0)">第 116 行</a>)
+    base = recovermonoms(local_monoms_left(:,used_left),recover(used_left));
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('noCraig', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m', 57)" style="font-weight:bold">noCraig</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1\noCraig.m',57,0)">第 57 行</a>)
+    ht_x=replace(h_x,a,p_val);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m', 14)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\run_all.m',14,0)">第 14 行</a>)
+        noCraig(benchmarks(i))
+} 

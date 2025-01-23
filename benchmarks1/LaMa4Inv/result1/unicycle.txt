@@ -1,0 +1,22 @@
+Begin_process:   ./CraigBenchmarks/testbench/c/unicycle.c
+GPT Answer: ['assert(-x1*x1 + 2*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-x1 * x1 + 2 * x2 - x2 * x2 >= 0);']
+AnsSet: []
+Candidate: assert(-x1*x1 + 2*x2 - x2*x2 >= 0);
+SMTLIB2: (assert (>= (- (+ (* (- 0 x1) x1) (* 2 x2)) (* x2 x2)) 0))
+ (>= (- (+ (* (- 0 x1) x1) (* 2 x2)) (* x2 x2)) 0)
+Checking timeout
+Candidate: assert(x1 >= -50 && x1 <= 50);
+SMTLIB2: (assert (and (>= x1 (- 0 50)) (<= x1 50)))
+ (and (>= x1 (- 0 50)) (<= x1 50))
+Checking timeout
+Candidate: assert(x2 >= -50 && x2 <= 50);
+SMTLIB2: (assert (and (>= x2 (- 0 50)) (<= x2 50)))
+ (and (>= x2 (- 0 50)) (<= x2 50))
+Checking timeout
+Candidate: assert(-x1 * x1 + 2 * x2 - x2 * x2 >= 0);
+SMTLIB2: (assert (>= (- (+ (* (- 0 x1) x1) (* 2 x2)) (* x2 x2)) 0))
+ (>= (- (+ (* (- 0 x1) x1) (* 2 x2)) (* x2 x2)) 0)
+Checking timeout
+
+
+

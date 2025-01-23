@@ -1,0 +1,9 @@
+
+##########
+Execution start time: 2024-06-28 18:43:03.076541
+Constraint Pair Generation Time: 0.05133271 s
+QP Generation Time: 0.30929184s
+QP with handelman size: 43
+QP without handelman size: 45
+Number of L-vars with handelman: 60
+Number of L-vars without handelman: 54

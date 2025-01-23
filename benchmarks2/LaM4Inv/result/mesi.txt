@@ -1,0 +1,21 @@
+Begin_process:   ./CraigBenchmarks/benchmarks2/c/mesi.c
+GPT Answer: ['assert(m == 0);', 'assert(t == m + s + e + i);', 'assert(m == 0 || m >= 1);', 'assert(s == 0 || s >= 1);', 'assert(e == 0 || e == 1);', 'assert(m == 0 || s == 0);']
+AnsSet: ['m==0', 's==0', 'e==0', 't==i', 'i>=1', 'm == 0', 't == m + s + e + i', '(m == 0)||(m >= 1)', '(s == 0)||(s >= 1)', '(e == 0)||(e == 1)', '(m == 0)||(s == 0)']
+Candidate: assert(m == 0);
+SMTLIB2: (assert (= m 0))
+ (= m 0)
+n{'m': 0, 't': 1, 's': 0, 'i': 0, 'e': 0}
+Size of CE: 1
+GPT Answer: ['assert(m == 0);', 'assert(t == m + s + e + i);', 'assert(m == 0 || m >= 1);', 'assert(s == 0 || s >= 1);', 'assert(e == 0 || e == 1);', 'assert(m == 0 || s == 0);', 'assert(m == 0 && t == s + e + i);']
+AnsSet: ['m==0', 's==0', 'e==0', 't==i', 'i>=1', 'm == 0', 't == m + s + e + i', '(m == 0)||(m >= 1)', '(s == 0)||(s >= 1)', '(e == 0)||(e == 1)', '(m == 0)||(s == 0)', 't == s + e + i']
+GPT Answer: ['assert(m == 0);', 'assert(t == m + s + e + i);', 'assert(m == 0 || m >= 1);', 'assert(s == 0 || s >= 1);', 'assert(e == 0 || e == 1);', 'assert(m == 0 || s == 0);', 'assert(m == 0 && t == s + e + i);']
+AnsSet: ['m==0', 's==0', 'e==0', 't==i', 'i>=1', 'm == 0', 't == m + s + e + i', '(m == 0)||(m >= 1)', '(s == 0)||(s >= 1)', '(e == 0)||(e == 1)', '(m == 0)||(s == 0)', 't == s + e + i']
+=================Verifivation Begin=================
+CombineCandidate: assert((m==0) && (s==0) && (e==0) && (t==i) && (i>=1) && (m == 0) && (t == m + s + e + i) && ((m == 0)||(m >= 1)) && ((s == 0)||(s >= 1)) && ((e == 0)||(e == 1)) && ((m == 0)||(s == 0)) && (t == s + e + i));
+CombineSMTLIB2: (assert (and (and (and (and (and (and (and (and (and (and (and (= m 0) (= s 0)) (= e 0)) (= t i)) (>= i 1)) (= m 0)) (= t (+ (+ (+ m s) e) i))) (or (= m 0) (>= m 1))) (or (= s 0) (>= s 1))) (or (= e 0) (= e 1))) (or (= m 0) (= s 0))) (= t (+ (+ s e) i))))
+ (and (and (and (and (and (and (and (and (and (and (and (= m 0) (= s 0)) (= e 0)) (= t i)) (>= i 1)) (= m 0)) (= t (+ (+ (+ m s) e) i))) (or (= m 0) (>= m 1))) (or (= s 0) (>= s 1))) (or (= e 0) (= e 1))) (or (= m 0) (= s 0))) (= t (+ (+ s e) i)))
+Correct loop invariant
+=================Verifivation Compelete=================
+The answer is :  assert((m==0) && (s==0) && (e==0) && (t==i) && (i>=1) && (m == 0) && (t == m + s + e + i) && ((m == 0)||(m >= 1)) && ((s == 0)||(s >= 1)) && ((e == 0)||(e == 1)) && ((m == 0)||(s == 0)) && (t == s + e + i));
+Time cost is :  15.87689733505249
+The proposal times is :  2

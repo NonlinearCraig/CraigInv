@@ -1,0 +1,286 @@
+benchmark is sgd
+d is 1
+benchmark:sgd with adeg=1, no solution
+Elapsed time: 1.804779 seconds
+------------------
+benchmark is sgd
+d is 2
+benchmark:sgd with adeg=2, no solution
+Elapsed time: 3.365444 seconds
+------------------
+benchmark is sgd
+d is 3
+benchmark:sgd with adeg=3, no solution
+Elapsed time: 4.930963 seconds
+------------------
+benchmark is sgd
+d is 4
+benchmark:sgd with adeg=4, no solution
+Elapsed time: 6.503056 seconds
+------------------
+benchmark is sgd_001
+d is 1
+benchmark:sgd_001 with adeg=1, a solution is: 69.9998717933-0.9645804469*a1+4.82316920763*a2-24.1158357288*a3
+Elapsed time: 3.591708 seconds
+------------------
+benchmark is sgd_001
+d is 2
+benchmark:sgd_001 with adeg=2, a solution is: 70.2217930917-0.762983164544*a1+4.91953950353*a2-29.7624401983*a3+0.258643344084*a1^2-1.40916380698*a1*a2+1.90408484957*a2^2+0.19732374076*a1*a3+2.32131633784*a2*a3-29.0999152684*a3^2
+Elapsed time: 6.869193 seconds
+------------------
+benchmark is sgd_001
+d is 3
+benchmark:sgd_001 with adeg=3, a solution is: 70.0039463495-1.86539159395*a1+9.32734686149*a2-46.6344129989*a3+0.0659704541548*a1^2-0.490701790952*a1*a2+0.84147248947*a2^2+0.396416436499*a1*a3+1.8560773609*a2*a3-30.4698687419*a3^2-0.00178301479555*a1^3+0.0280311775404*a1^2*a2-0.117147198605*a1*a2^2+0.150725272706*a2^3+0.0145712077514*a1^2*a3-0.0878838711101*a1*a2*a3+0.159533550964*a2^2*a3+2.35204511232*a1*a3^2-7.77864642847*a2*a3^2+16.1388961975*a3^3
+Elapsed time: 10.024631 seconds
+------------------
+benchmark is sgd_001
+d is 4
+benchmark:sgd_001 with adeg=4, a solution is: 70.1253064798-2.23640767996*a1+11.8069261289*a2-59.9234669668*a3-0.44681121111*a1^2+1.17626587862*a1*a2-1.67173033048*a2^2-6.51460462439*a1*a3+26.7866602467*a2*a3-102.174104602*a3^2-0.233331009738*a1^3+0.494017023176*a1^2*a2-0.433143937581*a1*a2^2+0.146532644026*a2^3+0.586960230395*a1^2*a3-1.99518497053*a1*a2*a3+2.74784164738*a2^2*a3+4.13130152326*a1*a3^2-15.7162317829*a2*a3^2+32.1448774146*a3^3+0.294336925513*a1^4-0.709588408937*a1^3*a2+1.02378318358*a1^2*a2^2-0.724677615533*a1*a2^3+0.306593326244*a2^4-0.523471182749*a1^3*a3+1.04635915111*a1^2*a2*a3-0.748187910899*a1*a2^2*a3+0.0950872675623*a2^3*a3+1.07140618923*a1^2*a3^2-4.83508377542*a1*a2*a3^2+7.0168884262*a2^2*a3^2+11.5100090745*a1*a3^3-39.4423030074*a2*a3^3+82.8995079672*a3^4
+Elapsed time: 13.646994 seconds
+------------------
+benchmark is cav13_1
+d is 1
+benchmark:cav13_1 with adeg=1, no solution
+Elapsed time: 9.628039 seconds
+------------------
+benchmark is cav13_1
+d is 2
+benchmark:cav13_1 with adeg=2, no solution
+Elapsed time: 19.480931 seconds
+------------------
+benchmark is cav13_1
+d is 3
+benchmark:cav13_1 with adeg=3, no solution
+Elapsed time: 29.019236 seconds
+------------------
+benchmark is cav13_1
+d is 4
+benchmark:cav13_1 with adeg=4, no solution
+Elapsed time: 38.714038 seconds
+------------------
+benchmark is car
+d is 1
+benchmark:car with adeg=1, no solution
+Elapsed time: 3.240628 seconds
+------------------
+benchmark is car
+d is 2
+benchmark:car with adeg=2, a solution is: 37.5285044044+24.7534849254*a1+123.941611314*a2+9.52583296367*a3+6.17030986177*a1^2+41.9559594085*a1*a2+105.631292558*a2^2+1.05517128126*a1*a3+0.777249490949*a2*a3-0.102046633946*a3^2
+Elapsed time: 6.328444 seconds
+------------------
+benchmark is car
+d is 3
+benchmark:car with adeg=3, a solution is: 37.8756649378+24.5629650053*a1+124.815123913*a2+9.58012304172*a3+4.16162272567*a1^2+42.7838449166*a1*a2+105.686710515*a2^2+0.693546130332*a1*a3+0.43417979618*a2*a3-1.47401938558*a3^2-0.416746242637*a1^3-4.87294314256*a1^2*a2+2.47441782242*a1*a2^2+2.99682431262*a2^3-1.09004995992*a1^2*a3-0.535810467674*a1*a2*a3+0.322220326592*a2^2*a3+0.231887287812*a1*a3^2-2.30709144246*a2*a3^2+0.515518092195*a3^3
+Elapsed time: 9.189272 seconds
+------------------
+benchmark is car
+d is 4
+benchmark:car with adeg=4, a solution is: 27.1223102233+23.9315463283*a1+125.5150422*a2+9.7145132334*a3+6.00890558729*a1^2+60.7446508147*a1*a2+160.577135512*a2^2+1.65963511522*a1*a3+1.59025618506*a2*a3-1.52617516949*a3^2+0.0955704327381*a1^3-6.30290306836*a1^2*a2+2.82898389703*a1*a2^2+1.02620835154*a2^3-1.1796903153*a1^2*a3-0.538083341889*a1*a2*a3+1.72976597974*a2^2*a3-0.671804401684*a1*a3^2-2.63738540018*a2*a3^2+0.683977206772*a3^3-0.542569524506*a1^4-0.526014810331*a1^3*a2-7.64625728675*a1^2*a2^2-34.6784013663*a1*a2^3-60.8507884695*a2^4+0.2068364451*a1^3*a3+0.302061044456*a1^2*a2*a3-0.932178921452*a1*a2^2*a3-0.0176392574926*a2^3*a3+0.519397270487*a1^2*a3^2-1.25119903304*a1*a2*a3^2-0.829428875455*a2^2*a3^2-0.794225108291*a1*a3^3+0.469105422849*a2*a3^3+0.393935512808*a3^4
+Elapsed time: 11.938706 seconds
+------------------
+benchmark is bound
+d is 1
+benchmark:bound with adeg=1, no solution
+Elapsed time: 381.126193 seconds
+------------------
+benchmark is bound
+d is 2
+benchmark:bound with adeg=2, no solution
+Elapsed time: 759.840462 seconds
+------------------
+benchmark is bound
+d is 3
+benchmark:bound with adeg=3, no solution
+Elapsed time: 1134.179681 seconds
+------------------
+benchmark is bound
+d is 4
+benchmark:bound with adeg=4, no solution
+Elapsed time: 1528.377847 seconds
+------------------
+benchmark is bound2
+d is 1
+benchmark:bound2 with adeg=1, no solution
+Elapsed time: 263.751541 seconds
+------------------
+benchmark is bound2
+d is 2
+benchmark:bound2 with adeg=2, no solution
+Elapsed time: 531.341279 seconds
+------------------
+benchmark is bound2
+d is 3
+benchmark:bound2 with adeg=3, no solution
+Elapsed time: 792.828889 seconds
+------------------
+benchmark is bound2
+d is 4
+benchmark:bound2 with adeg=4, no solution
+Elapsed time: 1056.294223 seconds
+------------------
+benchmark is contrived
+d is 1
+benchmark:contrived with adeg=1, no solution
+Elapsed time: 220.011191 seconds
+------------------
+benchmark is contrived
+d is 2
+benchmark:contrived with adeg=2, no solution
+Elapsed time: 428.522233 seconds
+------------------
+benchmark is contrived
+d is 3
+benchmark:contrived with adeg=3, no solution
+Elapsed time: 637.552035 seconds
+------------------
+benchmark is contrived
+d is 4
+benchmark:contrived with adeg=4, no solution
+Elapsed time: 839.084525 seconds
+------------------
+benchmark is transcend
+d is 1
+benchmark is logistic
+d is 1
+benchmark:logistic with adeg=1, no solution
+Elapsed time: 4.328105 seconds
+------------------
+benchmark is logistic
+d is 2
+benchmark:logistic with adeg=2, no solution
+Elapsed time: 7.661958 seconds
+------------------
+benchmark is logistic
+d is 3
+benchmark:logistic with adeg=3, no solution
+Elapsed time: 10.978641 seconds
+------------------
+benchmark is logistic
+d is 4
+benchmark:logistic with adeg=4, no solution
+Elapsed time: 14.587532 seconds
+------------------
+benchmark is cav13_2
+d is 1
+benchmark:cav13_2 with adeg=1, no solution
+Elapsed time: 151.215560 seconds
+------------------
+benchmark is cav13_2
+d is 2
+benchmark:cav13_2 with adeg=2, no solution
+Elapsed time: 303.505986 seconds
+------------------
+benchmark is cav13_2
+d is 3
+benchmark:cav13_2 with adeg=3, no solution
+Elapsed time: 456.046317 seconds
+------------------
+benchmark is cav13_2
+d is 4
+benchmark:cav13_2 with adeg=4, no solution
+Elapsed time: 609.523328 seconds
+------------------
+benchmark is unicycle
+d is 1
+benchmark:unicycle with adeg=1, no solution
+Elapsed time: 10.683860 seconds
+------------------
+benchmark is unicycle
+d is 2
+benchmark:unicycle with adeg=2, no solution
+Elapsed time: 20.208533 seconds
+------------------
+benchmark is unicycle
+d is 3
+benchmark:unicycle with adeg=3, no solution
+Elapsed time: 29.713832 seconds
+------------------
+benchmark is unicycle
+d is 4
+benchmark:unicycle with adeg=4, no solution
+Elapsed time: 39.339016 seconds
+------------------
+benchmark is circuit
+d is 1
+benchmark:circuit with adeg=1, a solution is: 20.9994507007-0.000194708859744*a1-0.000607812788365*a3-0.000176026203638*a4-8.9794361733e-05*a5-1.69541537496e-05*a6
+Elapsed time: 25.176174 seconds
+------------------
+benchmark is circuit
+d is 2
+benchmark:circuit with adeg=2, a solution is: 20.9989315486-0.000141180015262*a1-0.000371256114932*a2-0.00362378355268*a3-5.34023744957e-05*a4+0.000691558620578*a6-0.00159572629071*a1^2-5.97313886801e-05*a1*a2-0.001546600621*a2^2-0.000495956264106*a1*a3-0.00118366846696*a2*a3-0.0133405381897*a3^2+6.8259268669e-05*a2*a4-0.000317313620669*a3*a4-0.000694724039204*a4^2+1.98753368e-05*a2*a5+0.000296561346413*a3*a5-0.000504360071518*a4*a5-0.00141131245116*a5^2+6.57162333268e-05*a1*a6+0.000223011307094*a2*a6+0.00212794458291*a3*a6-0.000197948393024*a4*a6-1.94761095443e-05*a5*a6-0.00170569182475*a6^2
+Elapsed time: 47.128512 seconds
+------------------
+benchmark is circuit
+d is 3
+benchmark:circuit with adeg=3, a solution is: 20.9991546828-7.54893783489e-05*a1-0.0021494134645*a3+0.000448107000953*a6-0.00125892512236*a1^2-0.000288485952129*a1*a2-0.000778004690806*a2^2-0.000434928349041*a1*a3-0.00704529310292*a2*a3-0.010840930083*a3^2+3.35565560978e-05*a3*a4+0.00148343308819*a4^2-0.0011029628586*a4*a5-0.00130809367476*a5^2+4.48014740541e-05*a1*a6+0.00144549586154*a2*a6+0.00245881882544*a3*a6-0.00179763722772*a6^2+2.93222167622e-05*a1^2*a2-0.000164972841811*a1*a2^2+5.22105610211e-05*a2^3-0.000146794763804*a1^2*a3-0.000487521668493*a1*a2*a3-0.0041755409479*a2^2*a3-0.000267585885371*a1*a3^2-0.00905545081952*a2*a3^2-0.00399547771742*a3^3-1.53378720008e-05*a2^2*a4-3.89115315874e-05*a3^2*a4+7.3977768701e-05*a1*a4^2+0.000820825056512*a2*a4^2+0.00287438582066*a3*a4^2+1.21067702544e-05*a2*a3*a5-3.17507557375e-05*a1*a4*a5-0.000218261992669*a2*a4*a5-0.00137681654974*a3*a4*a5+2.714511495e-05*a2*a5^2-7.48078752043e-05*a3*a5^2+1.94524952094e-05*a1^2*a6+6.50389420228e-05*a1*a2*a6+0.000824071161676*a2^2*a6+4.33928903567e-05*a1*a3*a6+0.00288978268276*a2*a3*a6+0.0017320823087*a3^2*a6-0.000379060825152*a4^2*a6-1.37713381299e-05*a3*a5*a6+0.000192466131971*a4*a5*a6+1.31411107379e-05*a5^2*a6-0.00015567610144*a2*a6^2-0.000189074968161*a3*a6^2+3.1220960004e-05*a6^3
+Elapsed time: 72.276520 seconds
+------------------
+benchmark is circuit
+d is 4
+benchmark:circuit with adeg=4, a solution is: 21.3908743103-0.0215769642186*a1-0.1070106899*a2-0.16761757236*a3-0.000596737061442*a4-0.00313114252368*a5+0.0725440607616*a6-0.134999097643*a1^2-0.116173141638*a1*a2-1.12701959641*a2^2-0.151357509167*a1*a3-2.99893550449*a2*a3-2.30310028845*a3^2-0.000125119175857*a1*a4+0.000894770885624*a2*a4+0.00424879810608*a3*a4+0.671081176537*a4^2-0.000285059580504*a1*a5+0.00265963622037*a2*a5+0.00129423173408*a3*a5-0.329612112896*a4*a5-0.100814749765*a5^2+0.0291731681792*a1*a6+0.604798620375*a2*a6+0.787455110019*a3*a6-0.00122627576399*a4*a6-0.000563429386512*a5*a6-0.207168014884*a6^2+0.000853002651457*a1^3+0.00700688507907*a1^2*a2-0.0703014923846*a1*a2^2+0.168357810589*a2^3-0.0137769354227*a1^2*a3-0.235152979333*a1*a2*a3-2.19308494575*a2^2*a3-0.151860232358*a1*a3^2-3.77898187443*a2*a3^2-1.65557545*a3^3+0.00084324578139*a1^2*a4+0.000310534499211*a1*a2*a4+0.00118390077906*a2^2*a4+0.000393429697028*a1*a3*a4+0.0040388745488*a2*a3*a4+0.00461844157487*a3^2*a4+0.0458119474833*a1*a4^2+0.477391074708*a2*a4^2+1.67757759179*a3*a4^2-0.00148345702389*a4^3+0.000216425420781*a1^2*a5+0.000750684110007*a1*a2*a5+0.00486104740966*a2^2*a5+0.000910156162898*a1*a3*a5+0.0161952688765*a2*a3*a5+0.0106980602611*a3^2*a5-0.0182192346022*a1*a4*a5-0.182478836008*a2*a4*a5-0.689339027228*a3*a4*a5-0.00398465962049*a4^2*a5+0.00267681404534*a1*a5^2+0.0274681572739*a2*a5^2+0.0584891454848*a3*a5^2+0.000732516437088*a4*a5^2+0.000458512411412*a5^3-0.000434696039613*a1^2*a6+0.0387539505521*a1*a2*a6+0.389626528561*a2^2*a6+0.0509824011017*a1*a3*a6+1.31494376081*a2*a3*a6+0.856554200817*a3^2*a6-0.000135533638436*a1*a4*a6-0.000656781707639*a2*a4*a6-0.0023199866035*a3*a4*a6-0.267306468532*a4^2*a6-0.000306684606082*a1*a5*a6-0.00340352331925*a2*a5*a6-0.00395669190381*a3*a5*a6+0.108573248847*a4*a5*a6-0.011599087369*a5^2*a6-0.00279359740883*a1*a6^2-0.0991154745682*a2*a6^2-0.149380514199*a3*a6^2+0.0037206465478*a4*a6^2-2.92804792999e-05*a5*a6^2+0.00560422767384*a6^3+0.0379484915316*a1^4+0.00253262590639*a1^3*a2+0.0655740731416*a1^2*a2^2+0.0402723459353*a1*a2^3+0.855281327364*a2^4+0.000695190722561*a1^3*a3+0.0274041859099*a1^2*a2*a3+0.0304666834015*a1*a2^2*a3+1.14682608338*a2^3*a3+0.0326724309957*a1^2*a3^2-0.00341935785271*a1*a2*a3^2+0.36320918223*a2^2*a3^2+0.00774109662336*a1*a3^3-0.144903457541*a2*a3^3+0.0961111846951*a3^4+0.000128157714761*a1^3*a4+0.000232019392688*a1^2*a2*a4+0.000236067959156*a1*a2^2*a4-0.000824342147059*a2^3*a4+0.00073596276464*a1^2*a3*a4+0.000304331790493*a1*a2*a3*a4-0.000962937168707*a2^2*a3*a4+7.8402966022e-05*a1*a3^2*a4-0.000779517826669*a2*a3^2*a4-0.00196902599407*a3^3*a4+0.0309442540323*a1^2*a4^2+0.013995391483*a1*a2*a4^2-0.162253302235*a2^2*a4^2+0.0593101824253*a1*a3*a4^2+0.49247069122*a2*a3*a4^2+1.10155223995*a3^2*a4^2-7.42025723496e-05*a1*a4^3-0.000565370709427*a2*a4^3-0.00292263620181*a3*a4^3+0.0615078854171*a4^4+0.000195903603022*a1^3*a5+0.000429819889167*a1^2*a2*a5+0.000298924900393*a1*a2^2*a5-0.00402719335933*a2^3*a5+0.000662660313892*a1^2*a3*a5+0.000663482975776*a1*a2*a3*a5-0.00143308738661*a2^2*a3*a5+0.000534126588537*a1*a3^2*a5+0.00226444696906*a2*a3^2*a5+0.000742955996612*a3^3*a5+0.011400288406*a1^2*a4*a5-0.00450902922559*a1*a2*a4*a5+0.0782437540554*a2^2*a4*a5-0.0247042356564*a1*a3*a4*a5-0.197833037531*a2*a3*a4*a5-0.451417667186*a3^2*a4*a5-2.52649882383e-05*a1*a4^2*a5-0.00100169449103*a2*a4^2*a5-0.00503642520527*a3*a4^2*a5-0.0247540666612*a4^3*a5+0.0560252251118*a1^2*a5^2+0.00347465448392*a1*a2*a5^2+0.0639487100321*a2^2*a5^2+0.00365666585845*a1*a3*a5^2+0.0514298449816*a2*a3*a5^2+0.0811935512229*a3^2*a5^2+0.000192838621016*a1*a4*a5^2+0.000209354865361*a2*a4*a5^2+0.00108980783471*a3*a4*a5^2+0.0419493861601*a4^2*a5^2+0.000209033419627*a1*a5^3+0.000379581185718*a2*a5^3+0.000667505679006*a3*a5^3+0.00935240107701*a4*a5^3+0.0362629652158*a5^4-0.00103853001849*a1^3*a6-0.0107331828173*a1^2*a2*a6-0.0112219940326*a1*a2^2*a6-0.239175876193*a2^3*a6-0.0023811711621*a1^2*a3*a6-0.00594142804982*a1*a2*a3*a6-0.170219113523*a2^2*a3*a6-0.00651800956789*a1*a3^2*a6+0.0252391455922*a2*a3^2*a6-0.0413386068*a3^3*a6-0.000145127743334*a1^2*a4*a6-0.000179343034975*a1*a2*a4*a6+0.000252271349877*a2^2*a4*a6-0.00016858251317*a1*a3*a4*a6+0.000662013171241*a2*a3*a4*a6+0.00106831363072*a3^2*a4*a6-0.0106401480117*a1*a4^2*a6-0.0817899835423*a2*a4^2*a6-0.354902304458*a3*a4^2*a6+0.000650590165964*a4^3*a6-0.000260831828925*a1^2*a5*a6-0.000481508324544*a1*a2*a5*a6+7.14380400053e-05*a2^2*a5*a6-0.000535137605224*a1*a3*a5*a6-0.00149679849396*a2*a3*a5*a6-0.000706213957307*a3^2*a5*a6+0.00360642302851*a1*a4*a5*a6+0.0300589726587*a2*a4*a5*a6+0.149291772703*a3*a4*a5*a6+0.000945608427094*a4^2*a5*a6-0.00201898363377*a1*a5^2*a6-0.0146029688445*a2*a5^2*a6-0.0186339957405*a3*a5^2*a6-0.00019702739352*a4*a5^2*a6-0.000114711548142*a5^3*a6+0.0587121131461*a1^2*a6^2+0.00476415459934*a1*a2*a6^2+0.0895358343056*a2^2*a6^2+0.00251115467214*a1*a3*a6^2+0.0404112556219*a2*a3*a6^2+0.0453556888678*a3^2*a6^2+0.000291794736892*a1*a4*a6^2+0.000900521951587*a2*a4*a6^2+0.00374029903003*a3*a4*a6^2+0.0563679623021*a4^2*a6^2+0.000343812996076*a1*a5*a6^2+0.000384442278859*a2*a5*a6^2+0.000141210358451*a3*a5*a6^2+0.000518908821906*a4*a5*a6^2+0.0572909798648*a5^2*a6^2-0.00117549182411*a1*a6^3-0.0125649804393*a2*a6^3-0.00406272314019*a3*a6^3-0.000646147941297*a4*a6^3+9.4663611343e-05*a5*a6^3+0.0390867596791*a6^4
+Elapsed time: 94.250492 seconds
+------------------
+benchmark is discrete
+d is 1
+benchmark:discrete with adeg=1, no solution
+Elapsed time: 259.069113 seconds
+------------------
+benchmark is discrete
+d is 2
+benchmark:discrete with adeg=2, no solution
+Elapsed time: 513.660880 seconds
+------------------
+benchmark is discrete
+d is 3
+benchmark:discrete with adeg=3, no solution
+Elapsed time: 776.803286 seconds
+------------------
+benchmark is discrete
+d is 4
+benchmark:discrete with adeg=4, no solution
+Elapsed time: 1037.754521 seconds
+------------------
+benchmark is deter
+d is 1
+benchmark:deter with adeg=1, no solution
+Elapsed time: 11.311904 seconds
+------------------
+benchmark is deter
+d is 2
+benchmark:deter with adeg=2, no solution
+Elapsed time: 21.345079 seconds
+------------------
+benchmark is deter
+d is 3
+benchmark:deter with adeg=3, no solution
+Elapsed time: 31.304378 seconds
+------------------
+benchmark is deter
+d is 4
+benchmark:deter with adeg=4, no solution
+Elapsed time: 41.352719 seconds
+------------------
+benchmark is basin
+d is 1
+benchmark:basin with adeg=1, no solution
+Elapsed time: 334.818283 seconds
+------------------
+benchmark is basin
+d is 2
+benchmark:basin with adeg=2, no solution
+Elapsed time: 673.889479 seconds
+------------------
+benchmark is basin
+d is 3
+benchmark:basin with adeg=3, no solution
+Elapsed time: 1003.918167 seconds
+------------------
+benchmark is basin
+d is 4
+benchmark:basin with adeg=4, no solution
+Elapsed time: 1341.358506 seconds
+------------------
+benchmark is lyapunov
+d is 1
+benchmark is motivate
+d is 1

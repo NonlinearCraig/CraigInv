@@ -1,0 +1,22 @@
+Benchmark,Time (seconds)
+divbin,1.047
+dijkstra,1.029
+hard,1.29
+berkeley,10.286
+cohendiv,1.134
+euclidex2,600.007
+fermat2,0.505
+firefly,600.006
+illinois,14.685
+lcm,0.912
+mannadiv,0.499
+mesi,8.321
+moesi,10.516
+petter,0.585
+readerswriters,8.84
+sqrt,600.006
+wensley,600.01
+z3sqrt,600.007
+cohencu,600.009
+freire1,600.006
+freire2,25.387

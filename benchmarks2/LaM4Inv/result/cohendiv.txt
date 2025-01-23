@@ -1,0 +1,21 @@
+Begin_process:   ./CraigBenchmarks/benchmarks2/c/cohendiv.c
+GPT Answer: ['assert(r >= 0);', 'assert(x == q * y + r);', 'assert(d >= 0);', 'assert(x >= 0 && y >= 0);', 'assert(r == x - q * y);', 'assert(q * y + r == x);']
+AnsSet: ['d>=0', 'x>=0', 'y>=0', 'x == q * y + r', 'd >= 0', 'x >= 0', 'y >= 0', 'r == x - q * y', 'q * y + r == x']
+Candidate: assert(r >= 0);
+SMTLIB2: (assert (>= r 0))
+ (>= r 0)
+i({'y': -1, 'r': 0, 'd': -8, 'q': 0, 'x': -8}, {'y': -1, 'q': -8, 'd': -8, 'r': -8, 'x': -8})
+Size of CE: 1
+GPT Answer: ['assert(r >= 0);', 'assert(x == q * y + r);', 'assert(d >= 0);', 'assert(x >= 0 && y >= 0);', 'assert(r == x - q * y);', 'assert(q * y + r == x);', 'assert(y > 0 && d >= 0 && r >= 0 && x == q * y + r);']
+AnsSet: ['d>=0', 'x>=0', 'y>=0', 'x == q * y + r', 'd >= 0', 'x >= 0', 'y >= 0', 'r == x - q * y', 'q * y + r == x']
+GPT Answer: ['assert(r >= 0);', 'assert(x == q * y + r);', 'assert(d >= 0);', 'assert(x >= 0 && y >= 0);', 'assert(r == x - q * y);', 'assert(q * y + r == x);', 'assert(y > 0 && d >= 0 && r >= 0 && x == q * y + r);', 'assert(y > r || (x == q * y + r));']
+AnsSet: ['d>=0', 'x>=0', 'y>=0', 'x == q * y + r', 'd >= 0', 'x >= 0', 'y >= 0', 'r == x - q * y', 'q * y + r == x', '(y > r)||((x == q * y + r))']
+=================Verifivation Begin=================
+CombineCandidate: assert((d>=0) && (x>=0) && (y>=0) && (x == q * y + r) && (d >= 0) && (x >= 0) && (y >= 0) && (r == x - q * y) && (q * y + r == x) && ((y > r)||((x == q * y + r))));
+CombineSMTLIB2: (assert (and (and (and (and (and (and (and (and (and (>= d 0) (>= x 0)) (>= y 0)) (= x (+ (* q y) r))) (>= d 0)) (>= x 0)) (>= y 0)) (= r (- x (* q y)))) (= (+ (* q y) r) x)) (or (> y r) (= x (+ (* q y) r)))))
+ (and (and (and (and (and (and (and (and (and (>= d 0) (>= x 0)) (>= y 0)) (= x (+ (* q y) r))) (>= d 0)) (>= x 0)) (>= y 0)) (= r (- x (* q y)))) (= (+ (* q y) r) x)) (or (> y r) (= x (+ (* q y) r))))
+Correct loop invariant
+=================Verifivation Compelete=================
+The answer is :  assert((d>=0) && (x>=0) && (y>=0) && (x == q * y + r) && (d >= 0) && (x >= 0) && (y >= 0) && (r == x - q * y) && (q * y + r == x) && ((y > r)||((x == q * y + r))));
+Time cost is :  23.957841157913208
+The proposal times is :  2

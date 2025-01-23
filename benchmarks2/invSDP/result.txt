@@ -1,0 +1,513 @@
+s=4, d=1,2,3,4
+========berkeley========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 261.602464 秒。
+========cohencu========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 14.360233 秒。
+========cohendiv========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 49.575404 秒。
+========euclidex2========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 2867.263991 秒。
+========fermat2========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 26.987280 秒。
+========firefly========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 65.136930 秒。
+========illinois========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 147.843334 秒。
+========lcm========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 1296.674392 秒。
+========mannadiv========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 59.066748 秒。
+========mesi========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 65.216789 秒。
+========moesi========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 422.781675 秒。
+========petter========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 7.253687 秒。
+========readerwriter========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 320.786638 秒。
+========wensely========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 3901.088848 秒。
+========z3sqrt========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 25.516450 秒。
+========ex_sqrt========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 90.428333 秒。
+========freire1========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 39.086914 秒。
+========freire2========
+d = 1No solution is found:
+d = 2No solution is found:
+历时 92.701386 秒。
+
+ 
+>> run_all
+========berkeley========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 200.200535 秒。
+========cohencu========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 7.881635 秒。
+========cohendiv========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 23.718281 秒。
+========euclidex2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 908.767220 秒。
+========fermat2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 14.535315 秒。
+========firefly========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 34.079164 秒。
+========illinois========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 81.435885 秒。
+========lcm========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 650.366654 秒。
+========mannadiv========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 32.453336 秒。
+========mesi========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 33.403903 秒。
+========moesi========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 287.925030 秒。
+========petter========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 4.247898 秒。
+========readerwriter========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 169.844938 秒。
+========wensely========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 2248.403256 秒。
+========z3sqrt========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 14.681805 秒。
+========ex_sqrt========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 44.168536 秒。
+========freire1========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 19.583877 秒。
+========freire2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 47.994888 秒。
+
+
+>> run_all
+========berkeley========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 200.200535 秒。
+========cohencu========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 7.881635 秒。
+========cohendiv========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 23.718281 秒。
+========euclidex2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 908.767220 秒。
+========fermat2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 14.535315 秒。
+========firefly========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 34.079164 秒。
+========illinois========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 81.435885 秒。
+========lcm========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 650.366654 秒。
+========mannadiv========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 32.453336 秒。
+========mesi========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 33.403903 秒。
+========moesi========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 287.925030 秒。
+========petter========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 4.247898 秒。
+========readerwriter========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 169.844938 秒。
+========wensely========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 2248.403256 秒。
+========z3sqrt========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 14.681805 秒。
+========ex_sqrt========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 44.168536 秒。
+========freire1========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 19.583877 秒。
+========freire2========
+
+d =
+
+     3
+
+d = 3No solution is found:
+历时 47.994888 秒。
+>> run_all
+========berkeley========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 190.391343 秒。
+========cohencu========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 8.678709 秒。
+========cohendiv========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 23.633405 秒。
+========euclidex2========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 1461.561628 秒。
+========fermat2========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 15.933220 秒。
+========firefly========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 40.694356 秒。
+========illinois========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 75.556606 秒。
+========lcm========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 637.009430 秒。
+========mannadiv========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 32.555367 秒。
+========mesi========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 33.747482 秒。
+========moesi========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 291.389984 秒。
+========petter========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 4.203004 秒。
+========readerwriter========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 162.913032 秒。
+========wensely========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 2119.580022 秒。
+========z3sqrt========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 15.797157 秒。
+========ex_sqrt========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 47.336364 秒。
+========freire1========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 19.493161 秒。
+========freire2========
+
+d =
+
+     4
+
+d = 4No solution is found:
+历时 48.768892 秒。
+
