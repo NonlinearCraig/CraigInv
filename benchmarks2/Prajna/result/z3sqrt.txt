@@ -1,0 +1,80 @@
+After 1.314475 seconds
+iter:1
+inv is:
+-0.000101603563444+4.44975666646e-07*ve
+After 3.257484 seconds
+iter:2
+inv is:
+-4.44330602673e-05-8.52032766626e-09*ve
+After 6.313421 seconds
+iter:3
+inv is:
+-1.13819843448e-06+1.38933191289e-10*ve
+After 10.604803 seconds
+iter:4
+inv is:
+-5.5859569421e-05+5.11376615003e-08*ve
+After 15.773625 seconds
+iter:5
+inv is:
+-9.42627302193e-08-5.18959270341e-12*ve
+After 23.475161 seconds
+iter:6
+inv is:
+-3.12363087675e-06+2.62222213303e-09*ve
+After 32.550532 seconds
+iter:7
+inv is:
+-1.66071542047e-06+1.58931718119e-09*ve
+After 42.720809 seconds
+iter:8
+inv is:
+-2.00604208649e-06+1.35214337277e-09*ve
+After 53.959017 seconds
+iter:9
+inv is:
+-1.66124772417e-06+1.20298502458e-09*ve
+After 66.399737 seconds
+iter:10
+inv is:
+-1.6784227139e-06+1.22844388386e-09*ve
+After 80.062206 seconds
+iter:11
+inv is:
+-1.6706228662e-06+1.21256445262e-09*ve
+After 94.993046 seconds
+iter:12
+inv is:
+-1.66383119852e-06+1.20956876009e-09*ve
+After 111.446412 seconds
+iter:13
+inv is:
+-1.62281158936e-06+1.18377469728e-09*ve
+After 129.183262 seconds
+iter:14
+inv is:
+-3.34764649568e-06+2.54543637711e-09*ve
+After 148.407734 seconds
+iter:15
+inv is:
+-1.68958914237e-06+1.40447363711e-09*ve
+After 168.831254 seconds
+iter:16
+inv is:
+-1.66289942154e-06+1.20983281634e-09*ve
+After 190.538023 seconds
+iter:17
+inv is:
+-1.6504862171e-06+1.20555226488e-09*ve
+After 213.454061 seconds
+iter:18
+inv is:
+-1.56630797104e-06+1.07775619697e-09*ve
+After 237.492085 seconds
+iter:19
+inv is:
+-1.74332838164e-06+1.22850498582e-09*ve
+After 262.736262 seconds
+iter:20
+inv is:
+-1.62892264453e-06+1.17549879762e-09*ve
