@@ -1,7 +1,4 @@
 Benchmark,Time (seconds)
-divbin,1.047
-dijkstra,1.029
-hard,1.29
 berkeley,10.286
 cohendiv,1.134
 euclidex2,600.007
