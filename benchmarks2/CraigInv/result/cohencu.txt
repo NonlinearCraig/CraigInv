@@ -1,0 +1,68 @@
+After 0.223126 seconds
+A feasible initial solution is found.
+    "-8.72934999896+0.0568279787936*n+16.3881602491*vars(4)"
+
+After 0.637922 seconds
+    1 iteration solution is found. lambda is -0.0000000294 
+-28.3183488349+2.29055542552*n+80.2768781445*vars(4)
+After 1.076905 seconds
+    2 iteration solution is found. lambda is -0.0000000266 
+-27.4041944952+4.26543279006*n+77.7252788865*vars(4)
+After 1.541309 seconds
+    3 iteration solution is found. lambda is -0.0000000264 
+-27.392547138+5.52852309649*n+77.6595618305*vars(4)
+After 2.028286 seconds
+    4 iteration solution is found. lambda is -0.0000000270 
+-27.7634354313+6.39597890046*n+78.6448121175*vars(4)
+After 2.541712 seconds
+    5 iteration solution is found. lambda is -0.0000000269 
+-27.7579675131+6.8967593485*n+78.6202984117*vars(4)
+After 3.080851 seconds
+    6 iteration solution is found. lambda is -0.0000000271 
+-27.8781456133+7.2378835395*n+78.9247183953*vars(4)
+After 3.658391 seconds
+    7 iteration solution is found. lambda is -0.0000000275 
+-28.1131981482+7.49071951104*n+79.5467945191*vars(4)
+After 4.258728 seconds
+    8 iteration solution is found. lambda is -0.0000000267 
+-27.6642522611+7.50041871817*n+78.3115986975*vars(4)
+After 4.876653 seconds
+    9 iteration solution is found. lambda is -0.0000000273 
+-27.9932040435+7.66157766328*n+79.2030748908*vars(4)
+After 5.526542 seconds
+   10 iteration solution is found. lambda is -0.0000000271 
+-27.8463978028+7.6734999954*n+78.8029609092*vars(4)
+After 6.195942 seconds
+   11 iteration solution is found. lambda is -0.0000000270 
+-27.8303560891+7.69913847954*n+78.7511982283*vars(4)
+After 6.898118 seconds
+   12 iteration solution is found. lambda is -0.0000000273 
+-27.9889502949+7.75820095663*n+79.1857865427*vars(4)
+After 7.629107 seconds
+   13 iteration solution is found. lambda is -0.0000000099 
+-41.7708702643+12.0275082915*n+122.162954317*vars(4)
+After 8.403830 seconds
+   14 iteration solution is found. lambda is -0.0000000271 
+-27.8928974883+7.78040097892*n+78.9169019856*vars(4)
+After 9.196026 seconds
+   15 iteration solution is found. lambda is -0.0000000271 
+-27.8701544128+7.76799219925*n+78.8552553798*vars(4)
+After 10.009742 seconds
+   16 iteration solution is found. lambda is -0.0000000271 
+-27.9058053115+7.77559883158*n+78.9546937661*vars(4)
+After 10.845312 seconds
+   17 iteration solution is found. lambda is -0.0000000267 
+-27.6593818527+7.70940237504*n+78.2828492054*vars(4)
+After 11.702897 seconds
+   18 iteration solution is found. lambda is -0.0000000272 
+-27.9761905554+7.78932756607*n+79.1464722918*vars(4)
+After 12.604080 seconds
+   19 iteration solution is found. lambda is -0.0000000095 
+-40.8628111118+11.8006385848*n+119.479086268*vars(4)
+After 13.520457 seconds
+   20 iteration solution is found. lambda is -0.0000000270 
+-27.8204504009+7.78567525116*n+78.7218330778*vars(4)
+------------------
+After 13.526856 seconds
+========cohendiv========
+benchmark is cohendiv

@@ -1,0 +1,68 @@
+After 0.745852 seconds
+A feasible initial solution is found.
+    "64.249500334-0.00537077876738*vy+0.00845898352045*vr-4.98200465056e-05*vd"
+
+After 2.848094 seconds
+    1 iteration solution is found. lambda is -0.0000000053 
+54.483648944+0.434204996999*vy-0.296590062203*vr+0.0605123109205*vd
+After 5.840069 seconds
+    2 iteration solution is found. lambda is -0.0000000274 
+60.9223040479+0.956620191361*vy-0.664545904093*vr+0.120216395956*vd
+After 9.454726 seconds
+    3 iteration solution is found. lambda is -0.0000000312 
+67.9919567646+1.31964168206*vy-0.931247830697*vr+0.142461597648*vd
+After 14.243087 seconds
+    4 iteration solution is found. lambda is -0.0000000320 
+67.8036063265+1.50310325108*vy-1.07634653394*vr+0.141615766914*vd
+After 20.267210 seconds
+    5 iteration solution is found. lambda is -0.0000000312 
+63.6134430103+1.51698193417*vy-1.10393338827*vr+0.122814379153*vd
+After 26.857925 seconds
+    6 iteration solution is found. lambda is -0.0000000288 
+65.3002729739+1.65295928007*vy-1.21398075867*vr+0.12228023977*vd
+After 34.505841 seconds
+    7 iteration solution is found. lambda is -0.0000000303 
+65.7789990866+1.74193076903*vy-1.28748037852*vr+0.120765160184*vd
+After 42.711182 seconds
+    8 iteration solution is found. lambda is -0.0000000294 
+65.6951493732+1.7730731331*vy-1.31959405967*vr+0.114289854531*vd
+After 51.913629 seconds
+    9 iteration solution is found. lambda is -0.0000000285 
+64.9478858603+1.78461987515*vy-1.33434335904*vr+0.109691315532*vd
+After 61.882151 seconds
+   10 iteration solution is found. lambda is -0.0000000292 
+65.5189228795+1.8048908602*vy-1.35656606144*vr+0.105779111472*vd
+After 73.110441 seconds
+   11 iteration solution is found. lambda is -0.0000000081 
+67.6582160947+1.76617373844*vy-1.34128956519*vr+0.0850904178612*vd
+After 85.061575 seconds
+   12 iteration solution is found. lambda is -0.0000000211 
+68.2683897503+1.76491723089*vy-1.34462415591*vr+0.0851083926989*vd
+After 97.530799 seconds
+   13 iteration solution is found. lambda is -0.0000000282 
+65.8824490358+1.73614599884*vy-1.31998980479*vr+0.09214234011*vd
+After 110.992983 seconds
+   14 iteration solution is found. lambda is -0.0000000288 
+67.6347648805+1.80685961496*vy-1.37260911625*vr+0.0998112630323*vd
+After 125.053191 seconds
+   15 iteration solution is found. lambda is -0.0000000295 
+65.9232488797+1.79578227838*vy-1.36082014755*vr+0.102913988595*vd
+After 140.152249 seconds
+   16 iteration solution is found. lambda is -0.0000000263 
+64.0198109126+1.75999240986*vy-1.33282000357*vr+0.100617172598*vd
+After 155.902051 seconds
+   17 iteration solution is found. lambda is -0.0000000270 
+64.0802424715+1.77625984561*vy-1.34450884269*vr+0.101144117543*vd
+After 172.746756 seconds
+   18 iteration solution is found. lambda is -0.0000000263 
+63.5042634408+1.76790738273*vy-1.33850978813*vr+0.0995378235627*vd
+After 190.308633 seconds
+   19 iteration solution is found. lambda is -0.0000000313 
+65.6122945721+1.85479663439*vy-1.40191841297*vr+0.106687560427*vd
+After 208.858461 seconds
+   20 iteration solution is found. lambda is -0.0000000107 
+64.4529344455+1.72139964922*vy-1.31586454456*vr+0.0823552873922*vd
+------------------
+After 208.904405 seconds
+========euclidex2========
+benchmark is euclidex2

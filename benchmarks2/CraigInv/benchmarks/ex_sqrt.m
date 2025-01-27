@@ -1,8 +1,5 @@
 
 
-yalmip('clear');
-clear;
-tic;
 
 % read benchmarks;
 sdpvar su t n a;

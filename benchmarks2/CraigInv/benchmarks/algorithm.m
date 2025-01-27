@@ -1,27 +1,11 @@
-yalmip('clear');
-clear;
+function algorithm(benchmark)
+yalmip('clear')
+run(strcat(benchmark,'.m'))
+diary on;
+diary(strcat(benchmark,'.txt'));
 tic;
 
 % read benchmarks;
-% z3sqrt;
-% cohendiv;
-% berkeley;
-% cohencu;
-% firefly;
-% freire1;
-% freire2;
-% mannadiv;
-% illinois;
-% lcm;
-% mesi; 
-% moesi;
-% petter;
-% readerwriter;
-% ex_sqrt;
-% fermat2;
-
-% euclidex2;
-wensely;
 
 
 % epsilon = 0;
@@ -171,6 +155,9 @@ for times=1:max_iter
 
 end
 
+diary off;
+
+end
 
 
 %the function used for iteration

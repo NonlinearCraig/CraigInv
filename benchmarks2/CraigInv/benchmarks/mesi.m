@@ -2,9 +2,6 @@
 % 8 iteration solution is found. lambda is -0.0000000010 
 % 9.46074962452+0.0322608572367*vm-0.00798885671649*vs+0.0426129189407*ve+0.0328391288438*vi
 
-yalmip('clear');
-clear;
-tic;
 
 % read benchmarks;
 sdpvar vm vs ve vi;

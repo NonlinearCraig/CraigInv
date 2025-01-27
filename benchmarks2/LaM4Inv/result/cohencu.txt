@@ -4,9 +4,9 @@ AnsSet: ['z == 6*n + 6']
 Candidate: assert(z == 6*n + 6);
 SMTLIB2: (assert (= z (+ (* 6 n) 6)))
  (= z (+ (* 6 n) 6))
-n{'y': 7, 'x': -7, 'z': -6, 'n': -2}
+n{'y': 2, 'x': 0, 'n': 0, 'z': 6}
 Size of CE: 1
-GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);']
+GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);']
 AnsSet: ['z == 6*n + 6']
 GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);']
 AnsSet: ['z == 6*n + 6']
@@ -14,14 +14,14 @@ AnsSet: ['z == 6*n + 6']
 CombineCandidate: assert((z == 6*n + 6));
 CombineSMTLIB2: (assert (= z (+ (* 6 n) 6)))
  (= z (+ (* 6 n) 6))
-n{'y': 1, 'x': 0, 'n': -1, 'z': 0}
+n{'y': 2, 'x': 0, 'n': 0, 'z': 6}
 Size of CE: 2
 =================Verifivation Compelete=================
 
 Candidate: assert(y == 3*n*n + 3*n + 1);
 SMTLIB2: (assert (= y (+ (+ (* (* 3 n) n) (* 3 n)) 1)))
  (= y (+ (+ (* (* 3 n) n) (* 3 n)) 1))
-i({'tmp': 0, 'y': 1, 'x': -7, 'n': -1, 'z': -1}, {'y': 0, 'n': 0, 'x': -6, 'z': 5, 'tmp': 0})
+i({'x': -59/64, 'z': -1/4, 'tmp': 0, 'y': 91/64, 'n': 1/8}, {'n': 9/8, 'x': 1/2, 'y': 75/64, 'z': 23/4, 'tmp': 0})
 Size of CE: 3
 GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);']
 AnsSet: ['z == 6*n + 6']
@@ -31,16 +31,23 @@ AnsSet: ['z == 6*n + 6']
 Candidate: assert(x == n*n*n);
 SMTLIB2: (assert (= x (* (* n n) n)))
  (= x (* (* n n) n))
-i({'tmp': 0, 'x': -8, 'y': 5, 'z': -1, 'n': -2}, {'n': -1, 'x': -3, 'z': 5, 'y': 4, 'tmp': 0})
+i({'tmp': 0, 'z': 1/4, 'y': 1/2, 'x': 1/512, 'n': 1/8}, {'n': 9/8, 'x': 257/512, 'y': 3/4, 'z': 25/4, 'tmp': 0})
 Size of CE: 4
-GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);', 'assert(x == (n*(n+1)*(2*n+1))/6);']
+GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && (x == n*n*n - n*n + n));']
 AnsSet: ['z == 6*n + 6']
-GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);', 'assert(x == (n*(n+1)*(2*n+1))/6);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == (n*n*n + 3*n*n + 2*n)/2);']
-AnsSet: ['z == 6*n + 6']
+GPT Answer: ['assert(z == 6*n + 6);', 'assert(y == 3*n*n + 3*n + 1);', 'assert(x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);', 'assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && (x == n*n*n - n*n + n));', 'assert(z == 6 * n + 6);', 'assert(y == 3 * n * n + 3 * n + 1);', 'assert(x == n * (n + 1) * (2 * n + 1) / 6);']
+AnsSet: ['z == 6*n + 6', 'z == 6 * n + 6']
+=================Verifivation Begin=================
+CombineCandidate: assert((z == 6*n + 6) && (z == 6 * n + 6));
+CombineSMTLIB2: (assert (and (= z (+ (* 6 n) 6)) (= z (+ (* 6 n) 6))))
+ (and (= z (+ (* 6 n) 6)) (= z (+ (* 6 n) 6)))
+n{'y': 2, 'x': 0, 'n': 0, 'z': 6}
+Size of CE: 5
+=================Verifivation Compelete=================
 
 Candidate: assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);
 SMTLIB2: (assert (and (and (= z (+ (* 6 n) 6)) (= y (+ (+ (* (* 3 n) n) (* 3 n)) 1))) (= x (* (* n n) n))))
  (and (and (= z (+ (* 6 n) 6)) (= y (+ (+ (* (* 3 n) n) (* 3 n)) 1))) (= x (* (* n n) n)))
 The answer is :  assert(z == 6*n + 6 && y == 3*n*n + 3*n + 1 && x == n*n*n);
-Time cost is :  119.47394680976868
-The proposal times is :  5
+Time cost is :  131.9053874015808
+The proposal times is :  6

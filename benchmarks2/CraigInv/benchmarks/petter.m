@@ -1,19 +1,16 @@
 
 
-yalmip('clear');
-clear;
-tic;
 
 % read benchmarks;
-sdpvar vm vs ve vi vo;
-xvars = [vm, vs, ve, vi,vo];
+sdpvar n s;
+xvars = [n,s];
 
 %x_bound;
-x_bound=[100-vm,100+vm,100-vs,100+vs,100-ve,100+ve,100+vi,100-vi,100+vo,100-vo];
+x_bound=[100-n,100+n,100-s,100+s];
 
 % pre-conditions
 %conjunction shall written in one cell
-pre_ineq = [vm,-vm, vs, -vs, ve, -ve];
+pre_ineq = [s, -s, n, -n];
 prelist={pre_ineq};
 
 %neg_post_cond
@@ -28,29 +25,22 @@ guard= [1];
 %loop condition
 
 loop_cond = [   
-        [vi-1],
-        [ve-1],
-        [vs-1],
-        [vo-1],
-        [vi-1]
+      1
 ];
 
 
 % while body
 
+% xvars = [va,ve,vr,vq,vp];
 
 f = [
-        [  0, vs + ve + 1, 0, vi - 1, vo + vm], 
-        [  vm + 1, vs, ve - 1, vi, vo ], 
-        [  0, 0, 1,vi + vm + ve + vs + vo - 1, 0],
-        [  0, 0, 1,vi + vm + ve + vs + vo - 1, 0],
-        [  0, 0, 1,vi + vm + ve + vs + vo - 1, 0]
+          [n + 1, s + n^5]
 ];
 f_deg=degree(f);
 r_num=size(f,1);
 
 %to get template free h, we need to set h_degree first.
-h_degree=1; 
+h_degree=2; 
 %set degree of delta(x) except the inductive condition
 wi_deg=2;
 

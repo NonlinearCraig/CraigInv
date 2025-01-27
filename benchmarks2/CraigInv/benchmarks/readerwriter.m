@@ -1,19 +1,16 @@
 
 
-yalmip('clear');
-clear;
-tic;
 
 % read benchmarks;
-sdpvar n s;
-xvars = [n,s];
+sdpvar c1 c2 r w k;
+xvars = [c1,c2,r,w,k];
 
 %x_bound;
-x_bound=[100-n,100+n,100-s,100+s];
+x_bound=[100-c1,100+c1,100-c2,100+c2,100-r,100+r,100-w,100+w,100-k,100+k];
 
 % pre-conditions
 %conjunction shall written in one cell
-pre_ineq = [s, -s, n, -n];
+pre_ineq = [r, -r, w, -w, c1, c2 ];
 prelist={pre_ineq};
 
 %neg_post_cond
@@ -28,7 +25,10 @@ guard= [1];
 %loop condition
 
 loop_cond = [   
-      1
+      [-w,w],
+      [-r,r],
+      [w,-w],
+      [r,-r]
 ];
 
 
@@ -37,7 +37,10 @@ loop_cond = [
 % xvars = [va,ve,vr,vq,vp];
 
 f = [
-          [n + 1, s + n^5]
+        [c1, c2, r+1, w, k-c1], 
+        [c1, c2, r, w+1, k-c2],
+        [c1, c2, r-1, w, k+c1], 
+        [c1, c2, r, w-1, k+c2]
 ];
 f_deg=degree(f);
 r_num=size(f,1);
@@ -53,7 +56,7 @@ coef_bound=[];
 zvars=[xvars];
 
 % zvars and inv_ineq
-[inv_ineq,coef]=polynomial([xvars],h_degree);
+[inv_ineq,coef]=polynomial([r,w],h_degree);
 
 % epsilon
 

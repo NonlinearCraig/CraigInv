@@ -1,0 +1,68 @@
+After 0.187786 seconds
+A feasible initial solution is found.
+    "5.90359174853+3.9243248601*inv_eq(4)"
+
+After 1.153857 seconds
+    1 iteration solution is found. lambda is -0.0000000016 
+55.5636969511+0.165331286616*inv_eq(1)-0.0281963672985*inv_eq(2)-0.0778507335791*inv_eq(3)+11.4466048889*inv_eq(4)
+After 2.240573 seconds
+    2 iteration solution is found. lambda is -0.0000000133 
+64.2172071242+0.16816277715*inv_eq(1)-0.0357594539953*inv_eq(2)-0.0617318934728*inv_eq(3)+7.95285405371*inv_eq(4)
+After 3.437799 seconds
+    3 iteration solution is found. lambda is -0.0000000107 
+66.9267917267+0.172515592165*inv_eq(1)-0.0412707591554*inv_eq(2)-0.057129436808*inv_eq(3)+5.04429587301*inv_eq(4)
+After 4.732167 seconds
+    4 iteration solution is found. lambda is -0.0000000157 
+70.9198524838+0.180580933611*inv_eq(1)-0.0429620002763*inv_eq(2)-0.0525092047099*inv_eq(3)+3.28771315653*inv_eq(4)
+After 6.144172 seconds
+    5 iteration solution is found. lambda is -0.0000000028 
+72.3287763457+0.165568593667*inv_eq(1)-0.041517981547*inv_eq(2)-0.0466467725835*inv_eq(3)+2.3296944317*inv_eq(4)
+After 7.642480 seconds
+    6 iteration solution is found. lambda is -0.0000000010 
+73.4836438509+0.156843164852*inv_eq(1)-0.0414710281364*inv_eq(2)-0.0448878858879*inv_eq(3)+1.71309173956*inv_eq(4)
+After 9.258042 seconds
+    7 iteration solution is found. lambda is -0.0000000004 
+77.6560931364+0.15672027625*inv_eq(1)-0.0433894795932*inv_eq(2)-0.0459676775972*inv_eq(3)+1.36177401334*inv_eq(4)
+After 10.978180 seconds
+    8 iteration solution is found. lambda is -0.0000000016 
+74.7054538729+0.143774116208*inv_eq(1)-0.0399146220762*inv_eq(2)-0.0417395199536*inv_eq(3)+1.03418508966*inv_eq(4)
+After 12.799432 seconds
+    9 iteration solution is found. lambda is -0.0000000015 
+74.3697858759+0.13294084308*inv_eq(1)-0.039391469686*inv_eq(2)-0.0409345095566*inv_eq(3)+0.868151818648*inv_eq(4)
+After 14.758834 seconds
+   10 iteration solution is found. lambda is -0.0000000004 
+76.0809867451+0.130148823029*inv_eq(1)-0.0388258027842*inv_eq(2)-0.0401091088069*inv_eq(3)+0.768537916285*inv_eq(4)
+After 16.805287 seconds
+   11 iteration solution is found. lambda is -0.0000000051 
+81.0347321578+0.142183993143*inv_eq(1)-0.037753165394*inv_eq(2)-0.0388217522804*inv_eq(3)+0.728225179691*inv_eq(4)
+After 18.924481 seconds
+   12 iteration solution is found. lambda is -0.0000000060 
+80.296528228+0.131903755053*inv_eq(1)-0.0370373957361*inv_eq(2)-0.0379762280537*inv_eq(3)+0.6478565839*inv_eq(4)
+After 21.183377 seconds
+   13 iteration solution is found. lambda is -0.0000000051 
+80.6734206473+0.126997818321*inv_eq(1)-0.0357546051395*inv_eq(2)-0.0365585252502*inv_eq(3)+0.591469083993*inv_eq(4)
+After 23.531307 seconds
+   14 iteration solution is found. lambda is -0.0000000031 
+81.7359928109+0.125408459968*inv_eq(1)-0.0345206400317*inv_eq(2)-0.0352132478383*inv_eq(3)+0.546330800261*inv_eq(4)
+After 25.989496 seconds
+   15 iteration solution is found. lambda is -0.0000000011 
+83.1721369651+0.125012852453*inv_eq(1)-0.0333971263346*inv_eq(2)-0.0340061815773*inv_eq(3)+0.510488215419*inv_eq(4)
+After 28.553025 seconds
+   16 iteration solution is found. lambda is -0.0000000156 
+84.4880955893+0.122115897821*inv_eq(1)-0.0319345113511*inv_eq(2)-0.0324666272805*inv_eq(3)+0.483318228507*inv_eq(4)
+After 31.221520 seconds
+   17 iteration solution is found. lambda is -0.0000000116 
+86.367953781+0.124551685139*inv_eq(1)-0.0301451727821*inv_eq(2)-0.0306001465775*inv_eq(3)+0.457336017704*inv_eq(4)
+After 34.010135 seconds
+   18 iteration solution is found. lambda is -0.0000000140 
+86.4834105301+0.119115377072*inv_eq(1)-0.0283773769264*inv_eq(2)-0.0287744110385*inv_eq(3)+0.424761378449*inv_eq(4)
+After 36.955151 seconds
+   19 iteration solution is found. lambda is -0.0000000132 
+86.0899350882+0.114101943982*inv_eq(1)-0.0268821126967*inv_eq(2)-0.0272425697225*inv_eq(3)+0.404435425004*inv_eq(4)
+After 39.994474 seconds
+   20 iteration solution is found. lambda is -0.0000000120 
+85.9834499601+0.112112296215*inv_eq(1)-0.0260166711991*inv_eq(2)-0.0263554472215*inv_eq(3)+0.395105747567*inv_eq(4)
+------------------
+After 40.001563 seconds
+========lcm========
+benchmark is lcm

@@ -1,0 +1,52 @@
+After 0.466342 seconds
+A feasible initial solution is found.
+    "-5.9477614695+0.0568245962697*vq+4.94454166758*vs+12.2796305963*vb+28.4005079053*vx+15.3262554095*vy+0.114272595788*vq*vx+16.6942490692*vs*vy"
+
+After 2.234620 seconds
+    1 iteration solution is found. lambda is -0.0000000000 
+6.94679230488e-07-1.4877000791e-11*vq+2.00308714648e-09*vs+8.04015265188e-09*vb+4.12619856013e-09*vx+3.52369536949e-09*vy+3.04684237329e-12*vq*vx+4.57490981816e-10*vs*vy
+After 4.383063 seconds
+    2 iteration solution is found. lambda is -0.0000000000 
+2.17763059553e-07-2.90103391717e-10*vq+1.26015864223e-08*vs+5.37111546915e-08*vb+2.50773411048e-08*vx+2.16090170384e-08*vy-1.45382367959e-11*vq*vx+2.56669697045e-09*vs*vy
+After 7.232939 seconds
+    3 iteration solution is found. lambda is -0.0000000000 
+5.72279642584e-08-9.09532242837e-11*vq+6.17267380497e-09*vs+2.16625676363e-08*vb+8.85678739606e-09*vx+8.39579442873e-09*vy-1.02954272677e-11*vq*vx+1.03380903971e-09*vs*vy
+After 11.400097 seconds
+    4 iteration solution is found. lambda is -0.0000000000 
+8.46729858806e-08-1.33341187165e-10*vq+9.58474266294e-09*vs+3.3119606684e-08*vb+1.41755679797e-08*vx+1.35643689927e-08*vy-1.49887896097e-11*vq*vx+1.67437855755e-09*vs*vy
+After 16.301361 seconds
+    5 iteration solution is found. lambda is -0.0000000000 
+5.47292189129e-08-9.03564259352e-11*vq+5.88443344412e-09*vs+2.11048777954e-08*vb+8.50111260837e-09*vx+8.09662377716e-09*vy-1.03430414113e-11*vq*vx+9.97948912582e-10*vs*vy
+After 23.427863 seconds
+    6 iteration solution is found. lambda is -0.0000000001 
+1.13304358706e-07-1.78943634362e-10*vq+1.36427912906e-08*vs+4.59997199879e-08*vb+2.02860513151e-08*vx+1.97971763814e-08*vy-1.98037367394e-11*vq*vx+2.44480416678e-09*vs*vy
+After 31.742292 seconds
+    7 iteration solution is found. lambda is -0.0000000000 
+5.67543561385e-08-9.10986658361e-11*vq+6.7060812052e-09*vs+2.29229965486e-08*vb+1.00724456581e-08*vx+9.54104046528e-09*vy-1.01542208361e-11*vq*vx+1.17671627292e-09*vs*vy
+After 41.091469 seconds
+    8 iteration solution is found. lambda is -0.0000000000 
+1.04118506885e-07-1.59314152734e-10*vq+1.19541873758e-08*vs+4.12156266093e-08*vb+1.73624718196e-08*vx+1.74046972424e-08*vy-1.79187931532e-11*vq*vx+2.14547530002e-09*vs*vy
+After 51.312696 seconds
+    9 iteration solution is found. lambda is -0.0000000000 
+5.92074303591e-08-9.11312597307e-11*vq+6.80911529175e-09*vs+2.36127290561e-08*vb+1.01165875009e-08*vx+9.95836341235e-09*vy-1.02091377593e-11*vq*vx+1.23096484156e-09*vs*vy
+After 62.564588 seconds
+   10 iteration solution is found. lambda is -0.0000000000 
+5.92938000063e-08-9.25749811459e-11*vq+6.55262163097e-09*vs+2.3140543221e-08*vb+9.68117587562e-09*vx+9.49567618153e-09*vy-1.03698105855e-11*vq*vx+1.176684303e-09*vs*vy
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/mtimes')" style="font-weight:bold"> * </a>
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/polynomial', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\polynomial.m', 51)" style="font-weight:bold">sdpvar/polynomial</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\polynomial.m',51,0)">第 51 行</a>)
+p = c'*v;
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm>SOSnew', 'C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\benchmarks\algorithm.m', 229)" style="font-weight:bold">algorithm>SOSnew</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\benchmarks\algorithm.m',229,0)">第 229 行</a>)
+        [delta_cell{tail}, delta_coef_cell{tail}] = polynomial(vars, wi_deg);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\benchmarks\algorithm.m', 124)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\benchmarks\algorithm.m',124,0)">第 124 行</a>)
+         sdp_cons = SOSnew([prelist{i},x_bound],inv_ineq,sdp_cons,0,wi_deg);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\run_all.m', 13)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv\benchmarks2\CraigInv\run_all.m',13,0)">第 13 行</a>)
+        algorithm(benchmarks(i))
+} 
+run_all
+========fermat2========
+benchmark is fermat2

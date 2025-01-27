@@ -1,0 +1,68 @@
+After 1.098144 seconds
+A feasible initial solution is found.
+    "19.8013476818+20.3072006056*ve"
+
+After 4.243040 seconds
+    1 iteration solution is found. lambda is -0.0000000069 
+15.1537069175+15.5537313254*ve
+After 7.869031 seconds
+    2 iteration solution is found. lambda is -0.0000000068 
+14.6637181093+15.0737954497*ve
+After 12.528506 seconds
+    3 iteration solution is found. lambda is -0.0000000061 
+14.5462587482+14.9774647781*ve
+After 18.576155 seconds
+    4 iteration solution is found. lambda is -0.0000000058 
+14.5268821235+14.9819455795*ve
+After 25.877376 seconds
+    5 iteration solution is found. lambda is -0.0000000055 
+14.5255305071+15.004775227*ve
+After 35.293031 seconds
+    6 iteration solution is found. lambda is -0.0000000085 
+14.4103501496+14.9093531*ve
+After 45.696590 seconds
+    7 iteration solution is found. lambda is -0.0000000064 
+14.1263986086+14.6375686553*ve
+After 57.558664 seconds
+    8 iteration solution is found. lambda is -0.0000000058 
+14.163639219+14.6995399676*ve
+After 70.273520 seconds
+    9 iteration solution is found. lambda is -0.0000000070 
+14.8219223622+15.4037954233*ve
+After 84.056031 seconds
+   10 iteration solution is found. lambda is -0.0000000054 
+14.5140573242+15.1080338591*ve
+After 99.034297 seconds
+   11 iteration solution is found. lambda is -0.0000000068 
+14.6377179652+15.2595360455*ve
+After 115.057473 seconds
+   12 iteration solution is found. lambda is -0.0000000065 
+14.6027513952+15.2464902502*ve
+After 132.280018 seconds
+   13 iteration solution is found. lambda is -0.0000000076 
+14.8496332999+15.5278780402*ve
+After 150.890792 seconds
+   14 iteration solution is found. lambda is -0.0000000042 
+13.8344152703+14.4873490938*ve
+After 170.692219 seconds
+   15 iteration solution is found. lambda is -0.0000000058 
+14.5226033363+15.2331799429*ve
+After 191.715822 seconds
+   16 iteration solution is found. lambda is -0.0000000056 
+13.9020174499+14.6060930135*ve
+After 213.971992 seconds
+   17 iteration solution is found. lambda is -0.0000000055 
+14.5184808641+15.2790362643*ve
+After 237.903432 seconds
+   18 iteration solution is found. lambda is -0.0000000054 
+14.5199270055+15.3057404547*ve
+After 263.454970 seconds
+   19 iteration solution is found. lambda is -0.0000000056 
+13.907543623+14.6842072619*ve
+After 289.930279 seconds
+   20 iteration solution is found. lambda is -0.0000000052 
+14.5223718847+15.3586807022*ve
+------------------
+After 289.984064 seconds
+========ex_sqrt========
+benchmark is ex_sqrt

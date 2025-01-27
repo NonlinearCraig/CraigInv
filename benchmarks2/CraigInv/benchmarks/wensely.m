@@ -15,8 +15,10 @@ prelist={pre_ineq};
 
 % neg_post-condtion
 neg_post_ineq1 = [vy*vq-vp];
-neg_post_ineq2 = [-ve*vq+vp-vq*vy-1];
-negpostlist={ neg_post_ineq1,neg_post_ineq2 };
+% neg_post_ineq2 = [-ve*vq+vp-vq*vy-1];
+
+% negpostlist={ neg_post_ineq1 ,neg_post_ineq2};
+negpostlist={ neg_post_ineq1 };
 % negpostlist={-vp + vq*vy};
 d_neg=2;
 
@@ -31,10 +33,11 @@ loop_cond = [
 ];
 d_guard=max(degree(loop_cond,d_guard));
 
+
 % while body
 f = [
-       [  vp, vq, ve, vd/2, vy, va, vb/2], 
-       [  vp, vq, ve, vd/2, vy+vd/2, va+vb, vb/2]
+       [  vp,vq,ve,va,vb/2,vd/2,vy], 
+       [  vp,vq,ve,va+vb,vb/2,vd/2,vy+vd/2]
 ];
 
 f_deg=degree(f);
@@ -52,7 +55,7 @@ zvars=[va,vb];
 
 
 % zvars and inv_ineq
-[inv_ineq,coef]=polynomial([vp,vy,vq],h_degree);
+[inv_ineq,coef]=polynomial([ve],h_degree);
 
 %epsilon
 epsilon =1e-8; % tolerance for >= 

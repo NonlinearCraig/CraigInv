@@ -1,89 +1,99 @@
 Begin_process:   ./CraigBenchmarks/benchmarks2/c/firefly.c
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);']
-AnsSet: ['i >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
 Candidate: assert(i >= 0);
 SMTLIB2: (assert (>= i 0))
  (>= i 0)
-n{'t': 0, 's': 0, 'i': 0, 'e': 0, 'd': 1}
+n{'i': 0, 's': -1, 'd': 0, 't': 0, 'e': 0}
 Size of CE: 1
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);']
-AnsSet: ['i >= 0', 'e >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);']
-AnsSet: ['i >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
 =================Verifivation Begin=================
-CombineCandidate: assert((i >= 0) && (e >= 0));
-CombineSMTLIB2: (assert (and (>= i 0) (>= e 0)))
- (and (>= i 0) (>= e 0))
-n{'t': 0, 's': 0, 'i': 0, 'e': 0, 'd': 1}
+CombineCandidate: assert((i >= 0) && (s >= 0) && (e >= 0));
+CombineSMTLIB2: (assert (and (and (>= i 0) (>= s 0)) (>= e 0)))
+ (and (and (>= i 0) (>= s 0)) (>= e 0))
+n{'i': 0, 's': 0, 't': 1/2, 'd': 0, 'e': 0}
 Size of CE: 2
 =================Verifivation Compelete=================
-
-Candidate: assert(d <= 0 || s >= 2);
-SMTLIB2: (assert (or (<= d 0) (>= s 2)))
- (or (<= d 0) (>= s 2))
-i({'tmp': 0, 's': 0, 'e': 1, 't': 0, 'd': 0, 'i': 1}, {'d': 1, 's': 0, 'e': 0, 'i': 1, 't': 0, 'tmp': 0})
-Size of CE: 3
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-=================Verifivation Begin=================
-CombineCandidate: assert((i >= 0) && (e >= 0) && (s >= 0));
-CombineSMTLIB2: (assert (and (and (>= i 0) (>= e 0)) (>= s 0)))
- (and (and (>= i 0) (>= e 0)) (>= s 0))
-n{'t': 0, 's': 0, 'i': 0, 'e': 0, 'd': 1}
-Size of CE: 4
-=================Verifivation Compelete=================
-
-Candidate: assert(e >= 0);
-SMTLIB2: (assert (>= e 0))
- (>= e 0)
-n{'t': 0, 's': 0, 'i': 0, 'e': 0, 'd': 1}
-Size of CE: 5
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
 
 Candidate: assert(d + s + e + i == t);
 SMTLIB2: (assert (= (+ (+ (+ d s) e) i) t))
  (= (+ (+ (+ d s) e) i) t)
-i({'d': 0, 's': 0, 'tmp': 0, 't': 2, 'i': 0, 'e': 2}, {'d': 1, 's': 0, 'i': 0, 'e': 0, 'tmp': 0, 't': 2})
-Size of CE: 6
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
+i({'d': 0, 't': 5/4, 'tmp': 4, 'e': 1/4, 'i': 1, 's': 0}, {'d': 1, 's': 0, 'tmp': 4, 'i': 1, 't': 5/4, 'e': 0})
+Size of CE: 3
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
 
 Candidate: assert(d >= 0);
 SMTLIB2: (assert (>= d 0))
  (>= d 0)
-n{'t': 0, 's': 1, 'i': 0, 'e': 0, 'd': 0}
-Size of CE: 7
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
+n{'i': -1, 's': 0, 'd': 0, 't': 0, 'e': 0}
+Size of CE: 4
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
 
 Candidate: assert(s >= 0);
 SMTLIB2: (assert (>= s 0))
  (>= s 0)
-i({'t': 0, 'e': -3, 's': 1, 'd': 0, 'i': 1, 'tmp': 0}, {'d': 0, 's': -1, 'e': 0, 'i': 0, 'tmp': 0, 't': 0})
-Size of CE: 8
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(d + s + e + i >= t);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
+i({'tmp': 6, 'd': 1/2, 't': 2, 'e': -5/2, 's': 1, 'i': 1}, {'d': 1/2, 't': 2, 'tmp': 6, 's': -1/2, 'i': 0, 'e': 0})
+Size of CE: 5
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0']
 
-Candidate: assert(d + s + e + i >= t);
-SMTLIB2: (assert (>= (+ (+ (+ d s) e) i) t))
- (>= (+ (+ (+ d s) e) i) t)
-i({'t': 2, 's': 0, 'i': 0, 'd': 2, 'e': 0, 'tmp': 0}, {'d': 1, 's': 0, 'e': 0, 'i': 0, 't': 2, 'tmp': 0})
+Candidate: assert(e >= 0);
+SMTLIB2: (assert (>= e 0))
+ (>= e 0)
+n{'i': -1, 't': 0, 's': 0, 'd': 0, 'e': 0}
+Size of CE: 6
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+=================Verifivation Begin=================
+CombineCandidate: assert((i >= 0) && (s >= 0) && (e >= 0) && (i >= -1));
+CombineSMTLIB2: (assert (and (and (and (>= i 0) (>= s 0)) (>= e 0)) (>= i (- 0 1))))
+ (and (and (and (>= i 0) (>= s 0)) (>= e 0)) (>= i (- 0 1)))
+n{'i': 0, 's': 0, 't': 0, 'd': -1, 'e': 0}
+Size of CE: 7
+=================Verifivation Compelete=================
+
+Candidate: assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);
+SMTLIB2: (assert (and (and (and (>= d 0) (>= s 0)) (>= e 0)) (>= i 0)))
+ (and (and (and (>= d 0) (>= s 0)) (>= e 0)) (>= i 0))
+n{'i': 1/2, 's': 0, 't': 0, 'd': 0, 'e': 0}
+Size of CE: 8
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+
+Candidate: assert(i >= -1);
+SMTLIB2: (assert (>= i (- 0 1)))
+ (>= i (- 0 1))
+n{'i': 1/2, 's': 0, 't': 0, 'd': 0, 'e': 0}
 Size of CE: 9
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(d + s + e + i >= t);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
-GPT Answer: ['assert(i >= 0);', 'assert(d <= 0 || s >= 2);', 'assert(e >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(d + s + e + i >= t);']
-AnsSet: ['i >= 0', 'e >= 0', 's >= 0']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);', 'assert(d + s + e + i - t == 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);', 'assert(d + s + e + i - t == 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+
+Candidate: assert(d + s + e + i - t == 0);
+SMTLIB2: (assert (= (- (+ (+ (+ d s) e) i) t) 0))
+ (= (- (+ (+ (+ d s) e) i) t) 0)
+i({'d': 0, 't': 3/2, 'e': 3/2, 'tmp': 4, 'i': 0, 's': 0}, {'d': 1, 's': 0, 'tmp': 4, 't': 3/2, 'i': 0, 'e': 0})
+Size of CE: 10
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);', 'assert(d + s + e + i - t == 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
+GPT Answer: ['assert(i >= 0);', 'assert(d + s + e + i == t);', 'assert(d >= 0);', 'assert(s >= 0);', 'assert(e >= 0);', 'assert(d >= 0 && s >= 0 && e >= 0 && i >= 0);', 'assert(i >= -1);', 'assert(d + s + e + i - t == 0);']
+AnsSet: ['i >= 0', 's >= 0', 'e >= 0', 'i >= -1']
 
 
 

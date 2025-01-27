@@ -1,26 +1,46 @@
 Begin_process:   ./CraigBenchmarks/benchmarks2/c/lcm.c
-GPT Answer: ['assert(a == x + y && b == u + v);', 'assert(c == x*u + y*v);', 'assert(a == x + y * (v/u + 1) || a == x + y * v/u);', 'assert(b == y + x * (u/v + 1) || b == y + x * u/v);', 'assert(c == a*b);', 'assert(u == b || u >= b);', 'assert(v == 0 || v >= 0);', 'assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(c == x * u + y * v);']
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);']
 AnsSet: ['c == a*b', 'c == a * b']
-Candidate: assert(a == x + y && b == u + v);
-SMTLIB2: (assert (and (= a (+ x y)) (= b (+ u v))))
- (and (= a (+ x y)) (= b (+ u v)))
-p{'y': 3, 'u': 3, 'b': 3, 'a': 2, 'v': 0, 'c': 6, 'x': 2}
+Candidate: assert(a == x + y);
+SMTLIB2: (assert (= a (+ x y)))
+ (= a (+ x y))
+p{'y': 1, 'x': 0, 'v': 0, 'u': 1, 'c': 0, 'b': 1, 'a': 0}
 Size of CE: 1
-GPT Answer: ['assert(a == x + y && b == u + v);', 'assert(c == x*u + y*v);', 'assert(a == x + y * (v/u + 1) || a == x + y * v/u);', 'assert(b == y + x * (u/v + 1) || b == y + x * u/v);', 'assert(c == a*b);', 'assert(u == b || u >= b);', 'assert(v == 0 || v >= 0);', 'assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(c == x * u + y * v);', 'assert((a == x && b == y && u == b && v == 0 && c == a * b) || (c == x * u + y * v));']
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));']
 AnsSet: ['c == a*b', 'c == a * b']
-GPT Answer: ['assert(a == x + y && b == u + v);', 'assert(c == x*u + y*v);', 'assert(a == x + y * (v/u + 1) || a == x + y * v/u);', 'assert(b == y + x * (u/v + 1) || b == y + x * u/v);', 'assert(c == a*b);', 'assert(u == b || u >= b);', 'assert(v == 0 || v >= 0);', 'assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(c == x * u + y * v);', 'assert((a == x && b == y && u == b && v == 0 && c == a * b) || (c == x * u + y * v));', 'assert((x + y == a + b) && (u + v == b));']
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));', 'assert((a == x + y) && (b == u + v) && (c == x * u + y * v));']
 AnsSet: ['c == a*b', 'c == a * b']
 =================Verifivation Begin=================
 CombineCandidate: assert((c == a*b) && (c == a * b));
 CombineSMTLIB2: (assert (and (= c (* a b)) (= c (* a b))))
  (and (= c (* a b)) (= c (* a b)))
-n{'x': 1, 'v': 0, 'u': 1, 'c': 0, 'y': 1, 'a': 0, 'b': 1}
+n{'y': 1, 'x': 1, 'v': 0, 'u': 0, 'c': 1, 'b': 1, 'a': 1}
 Size of CE: 2
 =================Verifivation Compelete=================
 
-Candidate: assert(c == x*u + y*v);
-SMTLIB2: (assert (= c (+ (* x u) (* y v))))
- (= c (+ (* x u) (* y v)))
-The answer is :  assert(c == x*u + y*v);
-Time cost is :  39.571857213974
-The proposal times is :  3
+Candidate: assert(b == u + v);
+SMTLIB2: (assert (= b (+ u v)))
+ (= b (+ u v))
+i({'tmp': 7, 'y': 0, 'u': 0, 'b': -1/2, 'a': 6, 'v': -1/2, 'c': 5, 'x': -1/2}, {'tmp': 7, 'v': -1/2, 'u': -1/2, 'c': 5, 'a': 6, 'y': 1/2, 'b': -1/2, 'x': -1/2})
+Size of CE: 3
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));', 'assert((a == x + y) && (b == u + v) && (c == x * u + y * v));', 'assert(a*b == x*u + y*v);', 'assert(x + y == a + b);', 'assert(u + v == b);']
+AnsSet: ['c == a*b', 'c == a * b']
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));', 'assert((a == x + y) && (b == u + v) && (c == x * u + y * v));', 'assert(a*b == x*u + y*v);', 'assert(x + y == a + b);', 'assert(u + v == b);', 'assert(y*u == b*v);']
+AnsSet: ['c == a*b', 'c == a * b']
+
+Candidate: assert(c == a * b);
+SMTLIB2: (assert (= c (* a b)))
+ (= c (* a b))
+n{'y': 1, 'x': 1, 'v': 0, 'u': 0, 'c': 1, 'b': 1, 'a': 1}
+Size of CE: 4
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));', 'assert((a == x + y) && (b == u + v) && (c == x * u + y * v));', 'assert(a*b == x*u + y*v);', 'assert(x + y == a + b);', 'assert(u + v == b);', 'assert(y*u == b*v);', 'assert(a * b == x * y + v * u);']
+AnsSet: ['c == a*b', 'c == a * b']
+GPT Answer: ['assert(a == x + y);', 'assert(b == u + v);', 'assert(c == a * b);', 'assert(x * u + y * v == c);', 'assert(a == x + y * (v / u) || y == x + u * (v / u));', 'assert(b == y + x * (u / v) || x == y + v * (u / v));', 'assert(u == b || v == 0);', 'assert(c == x*u + y*v);', 'assert(c == x * u + y * v);', 'assert((x + y == a + b) && (x * u + y * v == c));', 'assert((a == x + y) && (b == u + v) && (c == x * u + y * v));', 'assert(a*b == x*u + y*v);', 'assert(x + y == a + b);', 'assert(u + v == b);', 'assert(y*u == b*v);', 'assert(a * b == x * y + v * u);']
+AnsSet: ['c == a*b', 'c == a * b']
+
+Candidate: assert(x * u + y * v == c);
+SMTLIB2: (assert (= (+ (* x u) (* y v)) c))
+ (= (+ (* x u) (* y v)) c)
+The answer is :  assert(x * u + y * v == c);
+Time cost is :  77.23103737831116
+The proposal times is :  5
