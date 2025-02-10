@@ -1,7 +1,7 @@
 function result = run_all()
 
     % modify it to your benchmarks directory
-    path = "C:\Users\zhaoy\Desktop\CraigInv\appendix\NoCraig\templates1";
+    path = "CraigInv\appendix\NoCraig\templates1";
     cd(path);
 
     % Cluster benchmark
