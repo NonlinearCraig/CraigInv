@@ -1,0 +1,11 @@
+Directly obtained from the result of Iter=0 in CraigInv, include verify time.
+
+z3sqrt: 4.1s
+cohencu: 0.3s
+fermat2: 1.1s
+mannadiv: 0.5s
+freire2: 3.2s
+petter: 0.3s
+ex_sqrt: 1.1s
+
+

@@ -1,0 +1,84 @@
+Elapsed time is 0.181861 seconds.
+A feasible initial solution is found.
+    "4.64793236761+0.0493976956336*inv_eq(1)+0.0485247381921*inv_eq(2)+0.630190867543*inv_eq(1)^2-0.00231942445819*inv_eq(1)*inv_eq(2)+0.63561830067*inv_eq(2)^2"
+
+Elapsed time is 0.596532 seconds.
+iter:1
+inv_poly is:
+10.6890580022-0.905261909821*inv_eq(1)-0.242813453011*inv_eq(2)+11.7733068175*inv_eq(1)^2+0.198382135439*inv_eq(1)*inv_eq(2)+1.34027653011*inv_eq(2)^2
+Elapsed time is 0.966151 seconds.
+iter:2
+inv_poly is:
+10.8117871621-1.03954035807*inv_eq(1)-0.229329465301*inv_eq(2)+11.8833185644*inv_eq(1)^2+0.42235214962*inv_eq(1)*inv_eq(2)+1.00191664193*inv_eq(2)^2
+Elapsed time is 1.361841 seconds.
+iter:3
+inv_poly is:
+10.7530138624-0.897071323135*inv_eq(1)-0.151840018798*inv_eq(2)+11.9157930956*inv_eq(1)^2+0.350244308353*inv_eq(1)*inv_eq(2)+0.78124171868*inv_eq(2)^2
+Elapsed time is 1.767475 seconds.
+iter:4
+inv_poly is:
+10.894411323-1.10024258007*inv_eq(1)-0.0631959866244*inv_eq(2)+12.5462697851*inv_eq(1)^2+0.41763093445*inv_eq(1)*inv_eq(2)+0.647686780297*inv_eq(2)^2
+Elapsed time is 2.174671 seconds.
+iter:5
+inv_poly is:
+11.149964919-1.90417489126*inv_eq(1)-0.0973618411871*inv_eq(2)+13.2388073553*inv_eq(1)^2+0.426522509208*inv_eq(1)*inv_eq(2)+0.320782396021*inv_eq(2)^2
+Elapsed time is 2.599258 seconds.
+iter:6
+inv_poly is:
+10.8992194359-1.04548819539*inv_eq(1)-0.102024573605*inv_eq(2)+12.3400507324*inv_eq(1)^2+0.440175087907*inv_eq(1)*inv_eq(2)+0.229786649303*inv_eq(2)^2
+Elapsed time is 3.039980 seconds.
+iter:7
+inv_poly is:
+10.8318822302-0.927051975887*inv_eq(1)-0.0759671378695*inv_eq(2)+11.944683905*inv_eq(1)^2+0.535765338398*inv_eq(1)*inv_eq(2)+0.138698533819*inv_eq(2)^2
+Elapsed time is 3.474612 seconds.
+iter:8
+inv_poly is:
+10.7480247555-0.914588620276*inv_eq(1)-0.0775331363855*inv_eq(2)+11.9645390559*inv_eq(1)^2+0.376245424699*inv_eq(1)*inv_eq(2)+0.110197213914*inv_eq(2)^2
+Elapsed time is 3.923252 seconds.
+iter:9
+inv_poly is:
+10.9319683711-1.45051044623*inv_eq(1)-0.075483897517*inv_eq(2)+12.5724061449*inv_eq(1)^2+0.327282425022*inv_eq(1)*inv_eq(2)+0.11139281254*inv_eq(2)^2
+Elapsed time is 4.400406 seconds.
+iter:10
+inv_poly is:
+10.972529768-1.39241928809*inv_eq(1)+0.0425082664101*inv_eq(2)+12.3671318684*inv_eq(1)^2+0.199529600695*inv_eq(1)*inv_eq(2)+0.13616952801*inv_eq(2)^2
+Elapsed time is 4.879411 seconds.
+iter:11
+inv_poly is:
+11.0128725728-1.71924739213*inv_eq(1)-0.132888723656*inv_eq(2)+11.9714413365*inv_eq(1)^2+0.457690161417*inv_eq(1)*inv_eq(2)+0.161366725753*inv_eq(2)^2
+Elapsed time is 5.369012 seconds.
+iter:12
+inv_poly is:
+10.8235691974-1.06500983537*inv_eq(1)-0.0911734634554*inv_eq(2)+12.4240946272*inv_eq(1)^2+0.399908663078*inv_eq(1)*inv_eq(2)+0.138318318313*inv_eq(2)^2
+Elapsed time is 5.857241 seconds.
+iter:13
+inv_poly is:
+11.0118844625-1.71828005798*inv_eq(1)-0.133087060976*inv_eq(2)+11.9740537117*inv_eq(1)^2+0.458123095885*inv_eq(1)*inv_eq(2)+0.160745899053*inv_eq(2)^2
+Elapsed time is 6.353339 seconds.
+iter:14
+inv_poly is:
+10.8149857-1.06182052475*inv_eq(1)-0.0937595556032*inv_eq(2)+12.3968788559*inv_eq(1)^2+0.411038297937*inv_eq(1)*inv_eq(2)+0.138269869886*inv_eq(2)^2
+Elapsed time is 6.864526 seconds.
+iter:15
+inv_poly is:
+11.0556153706-1.77763533182*inv_eq(1)-0.129673118905*inv_eq(2)+11.9987186471*inv_eq(1)^2+0.458819167018*inv_eq(1)*inv_eq(2)+0.164476400383*inv_eq(2)^2
+Elapsed time is 7.386496 seconds.
+iter:16
+inv_poly is:
+10.8338571157-1.05491871332*inv_eq(1)-0.100518348112*inv_eq(2)+12.4527640395*inv_eq(1)^2+0.389825154959*inv_eq(1)*inv_eq(2)+0.147871406298*inv_eq(2)^2
+Elapsed time is 7.916201 seconds.
+iter:17
+inv_poly is:
+10.9449664228-1.28193254557*inv_eq(1)-0.0766027946371*inv_eq(2)+11.8711389439*inv_eq(1)^2+0.424912424256*inv_eq(1)*inv_eq(2)+0.196467302642*inv_eq(2)^2
+Elapsed time is 8.460409 seconds.
+iter:18
+inv_poly is:
+10.5373142682-0.272362987508*inv_eq(1)-0.168017957889*inv_eq(2)+11.4088791644*inv_eq(1)^2+0.3084349962*inv_eq(1)*inv_eq(2)+0.128595410129*inv_eq(2)^2
+Elapsed time is 9.012497 seconds.
+iter:19
+inv_poly is:
+10.888600698-1.30466499725*inv_eq(1)-0.0371360599819*inv_eq(2)+12.3011977318*inv_eq(1)^2+0.294243918746*inv_eq(1)*inv_eq(2)+0.0946133846754*inv_eq(2)^2
+Elapsed time is 9.569919 seconds.
+iter:20
+inv_poly is:
+10.9364069291-1.57085506793*inv_eq(1)-0.0419210577194*inv_eq(2)+12.7423702358*inv_eq(1)^2+0.307808152331*inv_eq(1)*inv_eq(2)+0.0973366094544*inv_eq(2)^2

@@ -1,0 +1,84 @@
+Elapsed time is 0.543348 seconds.
+A feasible initial solution is found.
+    "-8.72934999993+0.0568279787918*n+16.3881602679*z"
+
+Elapsed time is 1.822385 seconds.
+iter:1
+inv_poly is:
+-20.9739410444+6.18241322573*n+57.0032990055*z
+Elapsed time is 3.202451 seconds.
+iter:2
+inv_poly is:
+-21.006987444+6.41328592885*n+57.0407411658*z
+Elapsed time is 4.667618 seconds.
+iter:3
+inv_poly is:
+-21.0070344134+6.4353571938*n+57.039357*z
+Elapsed time is 6.248440 seconds.
+iter:4
+inv_poly is:
+-21.0091783838+6.43658261692*n+57.0475246374*z
+Elapsed time is 7.933544 seconds.
+iter:5
+inv_poly is:
+-21.0045619453+6.43747473841*n+57.029591604*z
+Elapsed time is 9.731291 seconds.
+iter:6
+inv_poly is:
+-21.0047514128+6.43631226564*n+57.0303603003*z
+Elapsed time is 11.682230 seconds.
+iter:7
+inv_poly is:
+-21.0060378344+6.43622737853*n+57.035509089*z
+Elapsed time is 13.671254 seconds.
+iter:8
+inv_poly is:
+-21.0045284816+6.43766290714*n+57.0294890129*z
+Elapsed time is 15.799507 seconds.
+iter:9
+inv_poly is:
+-21.0081921264+6.43848275696*n+57.0434605569*z
+Elapsed time is 18.043128 seconds.
+iter:10
+inv_poly is:
+-21.0076588956+6.43812514672*n+57.0414880009*z
+Elapsed time is 20.406220 seconds.
+iter:11
+inv_poly is:
+-21.0058249872+6.43645299927*n+57.0346235524*z
+Elapsed time is 22.954410 seconds.
+iter:12
+inv_poly is:
+-21.0101065007+6.43769807812*n+57.05098265*z
+Elapsed time is 25.643834 seconds.
+iter:13
+inv_poly is:
+-21.0101507718+6.43732961046*n+57.0511839479*z
+Elapsed time is 28.380548 seconds.
+iter:14
+inv_poly is:
+-20.9911698541+6.72665245637*n+56.9516208057*z
+Elapsed time is 31.211253 seconds.
+iter:15
+inv_poly is:
+-20.9962496736+6.74342225641*n+56.9696108379*z
+Elapsed time is 34.394329 seconds.
+iter:16
+inv_poly is:
+-21.0082242428+6.46461887394*n+57.0420438371*z
+Elapsed time is 38.473519 seconds.
+iter:17
+inv_poly is:
+-21.0104992484+6.44041238358*n+57.0522710398*z
+Elapsed time is 42.731107 seconds.
+iter:18
+inv_poly is:
+-21.0071393545+6.43780361122*n+57.0394737941*z
+Elapsed time is 47.157331 seconds.
+iter:19
+inv_poly is:
+-21.010485309+6.43747393899*n+57.0523943872*z
+Elapsed time is 51.761478 seconds.
+iter:20
+inv_poly is:
+-21.0084208053+6.43595130421*n+57.0447311023*z

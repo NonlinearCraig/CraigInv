@@ -1,0 +1,84 @@
+Elapsed time is 0.328512 seconds.
+A feasible initial solution is found.
+    "7.95809703758+37.1456483519*n"
+
+Elapsed time is 1.334837 seconds.
+iter:1
+inv_poly is:
+11.1347488916+52.3175941358*n
+Elapsed time is 2.552233 seconds.
+iter:2
+inv_poly is:
+10.947175218+52.505454826*n
+Elapsed time is 3.975881 seconds.
+iter:3
+inv_poly is:
+10.7585557658+52.5655344014*n
+Elapsed time is 5.615025 seconds.
+iter:4
+inv_poly is:
+10.5227944576+52.6611518996*n
+Elapsed time is 7.518626 seconds.
+iter:5
+inv_poly is:
+10.2976631437+52.7391111847*n
+Elapsed time is 9.640566 seconds.
+iter:6
+inv_poly is:
+10.1519841286+52.7552617892*n
+Elapsed time is 12.142035 seconds.
+iter:7
+inv_poly is:
+10.0443464045+52.7818722252*n
+Elapsed time is 15.586319 seconds.
+iter:8
+inv_poly is:
+10.0175280199+52.7475842059*n
+Elapsed time is 19.347025 seconds.
+iter:9
+inv_poly is:
+9.7974221849+52.9054116424*n
+Elapsed time is 23.508522 seconds.
+iter:10
+inv_poly is:
+9.68041680039+52.9061942609*n
+Elapsed time is 28.032636 seconds.
+iter:11
+inv_poly is:
+9.64384387748+52.8706327274*n
+Elapsed time is 32.895826 seconds.
+iter:12
+inv_poly is:
+9.62827909923+52.8601127324*n
+Elapsed time is 39.674399 seconds.
+iter:13
+inv_poly is:
+9.53458675627+52.9513287563*n
+Elapsed time is 47.118161 seconds.
+iter:14
+inv_poly is:
+9.43516176249+52.981082803*n
+Elapsed time is 54.794261 seconds.
+iter:15
+inv_poly is:
+9.32815405143+53.0012458136*n
+Elapsed time is 62.960840 seconds.
+iter:16
+inv_poly is:
+9.16316924401+53.1109529713*n
+Elapsed time is 71.504651 seconds.
+iter:17
+inv_poly is:
+9.01787015464+53.1524790249*n
+Elapsed time is 80.945174 seconds.
+iter:18
+inv_poly is:
+8.94179864545+53.1109159132*n
+Elapsed time is 90.880642 seconds.
+iter:19
+inv_poly is:
+8.91052110504+52.8701190393*n
+Elapsed time is 101.242017 seconds.
+iter:20
+inv_poly is:
+8.94299787434+53.0370205409*n

@@ -1,0 +1,9 @@
+Begin_process:   ./CraigBenchmarks/benchmarks1/c/car.c
+GPT Answer: ['assert(x1 >= -50 && x1 <= -50);', 'assert(80 * x1 - x1 * x1 >= 0);', 'assert(82 + 81 * x1 - x1 * x1 >= 0 || -790 - 69 * x1 + x1 * x1 >= 0);', 'assert(x1 == -50);', 'assert(80*x1 - x1*x1 >= 0);', 'assert(82 + 81*x1 - x1*x1 >= 0 || -790 - 69*x1 + x1*x1 >= 0);', 'assert(x1>=-50 && x1<=-50);', 'assert(80*x1-x1*x1>=0);', 'assert(82 + 81*x1 - x1*x1>=0 || -790 - 69*x1 + x1*x1>= 0);', 'assert(x1 >= -50);', 'assert(x1 <= -50);']
+AnsSet: ['x1>=-50', 'x1<=-50', '80*x1-x1*x1>=0', 'x1 >= -50', 'x1 <= -50', '80 * x1 - x1 * x1 >= 0', 'x1 == -50', '80*x1 - x1*x1 >= 0']
+Candidate: assert(x1 >= -50 && x1 <= -50);
+SMTLIB2: (assert (and (>= x1 (- 0 50)) (<= x1 (- 0 50))))
+ (and (>= x1 (- 0 50)) (<= x1 (- 0 50)))
+The answer is :  assert(x1 >= -50 && x1 <= -50);
+Time cost is :  76.6576087474823
+The proposal times is :  1

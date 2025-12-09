@@ -1,0 +1,19 @@
+benchmark is discrete
+d is 1
+benchmark:discrete with adeg=1, no solution
+Elapsed time: 259.069113 seconds
+------------------
+benchmark is discrete
+d is 2
+benchmark:discrete with adeg=2, no solution
+Elapsed time: 513.660880 seconds
+------------------
+benchmark is discrete
+d is 3
+benchmark:discrete with adeg=3, no solution
+Elapsed time: 776.803286 seconds
+------------------
+benchmark is discrete
+d is 4
+benchmark:discrete with adeg=4, no solution
+Elapsed time: 1037.754521 seconds

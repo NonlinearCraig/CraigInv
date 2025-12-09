@@ -1,0 +1,29 @@
+Begin_process:   ./CraigBenchmarks/benchmarks1/c/bound2.c
+GPT Answer: ['assert(-0.35 + 1.2*x1 - x1*x1 >= 0);', 'assert(-0.35 + 1.2*x2 - x2*x2 >= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+Candidate: assert(-0.35 + 1.2*x1 - x1*x1 >= 0);
+SMTLIB2: (assert (>= (- (+ (- 0 0.35) (* 1.2 x1)) (* x1 x1)) 0))
+ (>= (- (+ (- 0 0.35) (* 1.2 x1)) (* x1 x1)) 0)
+i({'x2': 1/8, 'x1': 5/8}, {'x2': -680547/131072000, 'x1': 657/5120})
+Size of CE: 1
+GPT Answer: ['assert(-0.35 + 1.2*x1 - x1*x1 >= 0);', 'assert(-0.35 + 1.2*x2 - x2*x2 >= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+GPT Answer: ['assert(-0.35 + 1.2*x1 - x1*x1 >= 0);', 'assert(-0.35 + 1.2*x2 - x2*x2 >= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+
+Candidate: assert(-0.35 + 1.2*x2 - x2*x2 >= 0);
+SMTLIB2: (assert (>= (- (+ (- 0 0.35) (* 1.2 x2)) (* x2 x2)) 0))
+ (>= (- (+ (- 0 0.35) (* 1.2 x2)) (* x2 x2)) 0)
+i({'x2': 5/8, 'x1': 1/8}, {'x1': 161/1024, 'x2': 536637/5242880})
+Size of CE: 2
+GPT Answer: ['assert(-0.35 + 1.2*x1 - x1*x1 >= 0);', 'assert(-0.35 + 1.2*x2 - x2*x2 >= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+GPT Answer: ['assert(-0.35 + 1.2*x1 - x1*x1 >= 0);', 'assert(-0.35 + 1.2*x2 - x2*x2 >= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+
+Candidate: assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);
+SMTLIB2: (assert (or (>= (- (- 1 (* x1 x1)) (* x2 x2)) 0) (<= (- (+ (* x1 x1) (* x2 x2)) 0.36) 0)))
+ (or (>= (- (- 1 (* x1 x1)) (* x2 x2)) 0) (<= (- (+ (* x1 x1) (* x2 x2)) 0.36) 0))
+The answer is :  assert(1 - x1*x1 - x2*x2 >= 0 || x1*x1 + x2*x2 - 0.36 <= 0);
+Time cost is :  116.56593704223633
+The proposal times is :  3

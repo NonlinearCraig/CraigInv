@@ -1,0 +1,48 @@
+after4.453685e+00 seconds
+benchmark:logistic with adeg=1, no solution
+after4.652987e+00 seconds
+benchmark:logistic with adeg=2, no solution
+after3.048065e+00 seconds
+benchmark:logistic with adeg=3, no solution
+after4.209760e+00 seconds
+benchmark:logistic with adeg=4, no solution
+after3.186615e+00 seconds
+benchmark:logistic with adeg=5, no solution
+after3.184556e+00 seconds
+benchmark:logistic with adeg=6, no solution
+after4.573111e+00 seconds
+benchmark:logistic with adeg=1, no solution
+after4.657440e+00 seconds
+benchmark:logistic with adeg=2, no solution
+after3.023208e+00 seconds
+benchmark:logistic with adeg=3, no solution
+after4.198675e+00 seconds
+benchmark:logistic with adeg=4, no solution
+after3.207116e+00 seconds
+benchmark:logistic with adeg=5, no solution
+after3.127517e+00 seconds
+benchmark:logistic with adeg=6, no solution
+after3.273134e+00 seconds
+benchmark:logistic with adeg=7, no solution
+after4.951491e+00 seconds
+benchmark:logistic with adeg=8, no solution
+after4.196716e+00 seconds
+benchmark:logistic with adeg=1, no solution
+after4.426931e+00 seconds
+benchmark:logistic with adeg=2, no solution
+after3.094436e+00 seconds
+benchmark:logistic with adeg=3, no solution
+after4.211402e+00 seconds
+benchmark:logistic with adeg=4, no solution
+after3.100439e+00 seconds
+benchmark:logistic with adeg=5, no solution
+after3.121424e+00 seconds
+benchmark:logistic with adeg=6, no solution
+after3.198525e+00 seconds
+benchmark:logistic with adeg=7, no solution
+after4.893749e+00 seconds
+benchmark:logistic with adeg=8, no solution
+after4.661246e+00 seconds
+benchmark:logistic with adeg=9, no solution
+after4.732831e+00 seconds
+benchmark:logistic with adeg=10, no solution

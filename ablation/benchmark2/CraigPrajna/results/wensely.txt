@@ -1,0 +1,85 @@
+
+Elapsed time is 0.991615 seconds.
+A feasible initial solution is found.
+    "-2.74401895329e-06"
+
+Elapsed time is 4.703762 seconds.
+iter:1
+inv_poly is:
+-0.000126329780104+3.17487955819e-05*ve-1.06258561547e-05*ve^2
+Elapsed time is 9.794927 seconds.
+iter:2
+inv_poly is:
+-0.000216624833034+4.54851433297e-05*ve-1.69643998774e-05*ve^2
+Elapsed time is 16.972998 seconds.
+iter:3
+inv_poly is:
+-0.00104793300965+6.85685570073e-06*ve-0.000372708673358*ve^2
+Elapsed time is 27.000828 seconds.
+iter:4
+inv_poly is:
+-1.43750174806e-05+5.45669523894e-06*ve-2.36964060114e-06*ve^2
+Elapsed time is 38.799920 seconds.
+iter:5
+inv_poly is:
+-6.72493641642e-05+1.63254768284e-05*ve-5.69816249293e-06*ve^2
+Elapsed time is 56.387934 seconds.
+iter:6
+inv_poly is:
+-0.000272515145778+5.85734526779e-05*ve-1.97152786931e-05*ve^2
+Elapsed time is 76.803669 seconds.
+iter:7
+inv_poly is:
+-0.000949765115543+4.95000375485e-05*ve-0.000267087889927*ve^2
+Elapsed time is 100.044786 seconds.
+iter:8
+inv_poly is:
+-0.000162622363033-4.09285795882e-05*ve-7.37172093515e-05*ve^2
+Elapsed time is 125.061784 seconds.
+iter:9
+inv_poly is:
+-0.000231800852005+6.03231739514e-05*ve-1.96556429034e-05*ve^2
+Elapsed time is 153.991783 seconds.
+iter:10
+inv_poly is:
+-0.00161420688229+0.00011113927541*ve-0.000334984229505*ve^2
+Elapsed time is 185.281167 seconds.
+iter:11
+inv_poly is:
+-3.52822331624e-05+9.02734418565e-06*ve-4.38219142669e-06*ve^2
+Elapsed time is 215.165539 seconds.
+iter:12
+inv_poly is:
+-0.000337021902294+8.09783877458e-05*ve-2.7287793149e-05*ve^2
+Elapsed time is 252.523868 seconds.
+iter:13
+inv_poly is:
+-0.000268797399684+5.99432508375e-05*ve-2.1386279348e-05*ve^2
+Elapsed time is 293.802078 seconds.
+iter:14
+inv_poly is:
+-0.000394284647346-1.81211967043e-05*ve-0.000234682372216*ve^2
+Elapsed time is 333.417472 seconds.
+iter:15
+inv_poly is:
+-9.44797127978e-05-9.68364669884e-06*ve-7.88936213451e-05*ve^2
+Elapsed time is 380.685701 seconds.
+iter:16
+inv_poly is:
+-4.69210381257e-06+1.13967153106e-06*ve-3.87307032649e-07*ve^2
+Elapsed time is 430.743404 seconds.
+iter:17
+inv_poly is:
+-8.75287442759e-05+2.45808548527e-05*ve-8.21827533143e-06*ve^2
+Elapsed time is 483.703166 seconds.
+iter:18
+inv_poly is:
+-0.000119143413769+2.69067794364e-05*ve-9.27245552645e-06*ve^2
+Elapsed time is 540.140437 seconds.
+iter:19
+inv_poly is:
+-0.00020458964531+4.54420882592e-05*ve-1.6394063803e-05*ve^2
+Elapsed time is 597.561356 seconds.
+iter:20
+inv_poly is:
+-0.000238452624726+6.47411463546e-05*ve-2.09635226926e-05*ve^2

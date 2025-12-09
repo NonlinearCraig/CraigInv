@@ -1,0 +1,19 @@
+benchmark is basin
+d is 1
+benchmark:basin with adeg=1, no solution
+Elapsed time: 334.818283 seconds
+------------------
+benchmark is basin
+d is 2
+benchmark:basin with adeg=2, no solution
+Elapsed time: 673.889479 seconds
+------------------
+benchmark is basin
+d is 3
+benchmark:basin with adeg=3, no solution
+Elapsed time: 1003.918167 seconds
+------------------
+benchmark is basin
+d is 4
+benchmark:basin with adeg=4, no solution
+Elapsed time: 1341.358506 seconds

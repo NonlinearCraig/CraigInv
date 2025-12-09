@@ -1,0 +1,87 @@
+inv_poly content:
+Begin Solving Initial Step...
+A feasible initial solution is found.
+    "5.57942417915+0.75263374644*x2-1.87097681829*x1^2-1.87704341574*x2^2"
+
+Elapsed time is 0.121335 seconds.
+----------------------------------------------
+iteration 1
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: 0
+Elapsed time is 0.353525 seconds.
+----------------------------------------------
+iteration 2
+h_xy: 0
+Elapsed time is 0.577815 seconds.
+----------------------------------------------
+iteration 3
+h_xy: 0
+Elapsed time is 0.793624 seconds.
+----------------------------------------------
+iteration 4
+h_xy: 0
+Elapsed time is 1.013235 seconds.
+----------------------------------------------
+iteration 5
+h_xy: 0
+Elapsed time is 1.240571 seconds.
+----------------------------------------------
+iteration 6
+h_xy: 0
+Elapsed time is 1.463002 seconds.
+----------------------------------------------
+iteration 7
+h_xy: 0
+Elapsed time is 1.696445 seconds.
+----------------------------------------------
+iteration 8
+h_xy: 0
+Elapsed time is 1.927059 seconds.
+----------------------------------------------
+iteration 9
+h_xy: 0
+Elapsed time is 2.158908 seconds.
+----------------------------------------------
+iteration 10
+h_xy: 0
+Elapsed time is 2.396482 seconds.
+----------------------------------------------
+iteration 11
+h_xy: 0
+Elapsed time is 2.634911 seconds.
+----------------------------------------------
+iteration 12
+h_xy: 0
+Elapsed time is 2.878057 seconds.
+----------------------------------------------
+iteration 13
+h_xy: 0
+Elapsed time is 3.121364 seconds.
+----------------------------------------------
+iteration 14
+h_xy: 0
+Elapsed time is 3.371121 seconds.
+----------------------------------------------
+iteration 15
+h_xy: 0
+Elapsed time is 3.625665 seconds.
+----------------------------------------------
+iteration 16
+h_xy: 0
+Elapsed time is 3.889052 seconds.
+----------------------------------------------
+iteration 17
+h_xy: 0
+Elapsed time is 4.150079 seconds.
+----------------------------------------------
+iteration 18
+h_xy: 0
+Elapsed time is 4.416344 seconds.
+----------------------------------------------
+iteration 19
+h_xy: 0
+Elapsed time is 4.679903 seconds.
+----------------------------------------------
+iteration 20
+h_xy: 0
+Elapsed time is 4.948692 seconds.

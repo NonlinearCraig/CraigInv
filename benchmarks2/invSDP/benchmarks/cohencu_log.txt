@@ -1,0 +1,8 @@
+Benchmark: cohencu
+----------------------------
+No solution is found
+No solution is found
+Depth: 5 | Time: 80.7952 s
+No solution is found
+No solution is found
+Depth: 6 | Time: 67.5970 s

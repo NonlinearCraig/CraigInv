@@ -1,0 +1,49 @@
+Begin_process:   ./CraigBenchmarks/benchmarks1/c/contrived.c
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);']
+AnsSet: []
+Candidate: assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);
+SMTLIB2: (assert (>= (- (+ (- (- 0 8) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0))
+ (>= (- (+ (- (- 0 8) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0)
+i({'x2': 3, 'x1': 3/4}, {'x2': 27/10, 'x1': 39/40})
+Size of CE: 1
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);']
+AnsSet: []
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);']
+AnsSet: []
+
+Candidate: assert(x1 >= -50 && x1 <= 50);
+SMTLIB2: (assert (and (>= x1 (- 0 50)) (<= x1 50)))
+ (and (>= x1 (- 0 50)) (<= x1 50))
+n{'x2': 1/8, 'x1': -49}
+Size of CE: 2
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);']
+AnsSet: []
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);']
+AnsSet: []
+
+Candidate: assert(x2 >= -50 && x2 <= 50);
+SMTLIB2: (assert (and (>= x2 (- 0 50)) (<= x2 50)))
+ (and (>= x2 (- 0 50)) (<= x2 50))
+n{'x2': -49, 'x1': 1/8}
+Size of CE: 3
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);']
+AnsSet: []
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);']
+AnsSet: []
+
+Candidate: assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);
+SMTLIB2: (assert (or (< (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0) (>= (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0)))
+ (or (< (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0) (>= (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0))
+n{'x2': 5, 'x1': 1/8}
+Size of CE: 4
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0);']
+AnsSet: []
+GPT Answer: ['assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || -5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 || (x1 == 0 && x2 == 0));', 'assert(-8 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0 || -5 - x1 * x1 + 6 * x2 - x2 * x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -8 - x1*x1 + 6*x2 - x2*x2 >= 0);', 'assert(-5 - x1*x1 + 6*x2 - x2*x2 < 0 && -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);', 'assert(-5 - x1 * x1 + 6 * x2 - x2 * x2 < 0);', 'assert(-8 - x1*x1 + 6*x2 - x2*x2 >= 0 && x1 >= -50 && x1 <= 50 && x2 >= -50 && x2 <= 50);']
+AnsSet: []
+
+Candidate: assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);
+SMTLIB2: (assert (or (>= (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0) (<= (+ (- (+ (- (- 0 1) (* 4 x1)) (* x1 x1)) (* 4 x2)) (* x2 x2)) 0)))
+ (or (>= (- (+ (- (- 0 5) (* x1 x1)) (* 6 x2)) (* x2 x2)) 0) (<= (+ (- (+ (- (- 0 1) (* 4 x1)) (* x1 x1)) (* 4 x2)) (* x2 x2)) 0))
+The answer is :  assert(-5 - x1*x1 + 6*x2 - x2*x2 >= 0 || -1 - 4*x1 + x1*x1 - 4*x2 + x2*x2 <= 0);
+Time cost is :  291.8911874294281
+The proposal times is :  5
