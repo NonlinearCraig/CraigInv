@@ -1,0 +1,19 @@
+benchmark:deter with adeg=1, no solution
+after1.053755e+01 seconds
+benchmark:deter with adeg=2, no solution
+after1.036984e+01 seconds
+benchmark:deter with adeg=3, no solution
+after1.042063e+01 seconds
+benchmark:deter with adeg=4, no solution
+after1.056024e+01 seconds
+benchmark:deter with adeg=5, no solution
+after1.155063e+01 seconds
+benchmark:deter with adeg=6, no solution
+after1.214772e+01 seconds
+benchmark:deter with adeg=7, no solution
+after1.851814e+01 seconds
+benchmark:deter with adeg=8, no solution
+after2.425670e+01 seconds
+benchmark:deter with adeg=9, no solution
+after1.156906e+02 seconds
+benchmark:deter with adeg=10, no solution

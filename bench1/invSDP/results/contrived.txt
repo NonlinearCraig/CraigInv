@@ -1,0 +1,19 @@
+benchmark is contrived
+d is 1
+benchmark:contrived with adeg=1, no solution
+Elapsed time: 220.011191 seconds
+------------------
+benchmark is contrived
+d is 2
+benchmark:contrived with adeg=2, no solution
+Elapsed time: 428.522233 seconds
+------------------
+benchmark is contrived
+d is 3
+benchmark:contrived with adeg=3, no solution
+Elapsed time: 637.552035 seconds
+------------------
+benchmark is contrived
+d is 4
+benchmark:contrived with adeg=4, no solution
+Elapsed time: 839.084525 seconds

@@ -1,0 +1,16 @@
+after1.015866e+01 seconds
+benchmark:unicycle with adeg=1, no solution
+after1.005646e+01 seconds
+benchmark:unicycle with adeg=2, no solution
+after9.929982e+00 seconds
+benchmark:unicycle with adeg=3, no solution
+after1.024091e+01 seconds
+benchmark:unicycle with adeg=4, no solution
+after1.054037e+01 seconds
+benchmark:unicycle with adeg=5, no solution
+after1.126508e+01 seconds
+benchmark:unicycle with adeg=6, no solution
+after1.191104e+01 seconds
+benchmark:unicycle with adeg=7, no solution
+after1.852216e+01 seconds
+benchmark:unicycle with adeg=8, no solution

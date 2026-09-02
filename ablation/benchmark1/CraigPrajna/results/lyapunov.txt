@@ -1,0 +1,103 @@
+inv_poly content:
+Begin Solving Initial Step...
+A feasible initial solution is found.
+    "19.0983057353+3.75880783772*x1+3.33535884648*x2+3.33535743369*x3-7.45392355615*x1^2-10.3053080323*x2^2-10.3052992936*x3^2-5.19179901617*x1*x2-5.19179411485*x1*x3-5.28664615146*x2*x3"
+
+Elapsed time is 0.187193 seconds.
+----------------------------------------------
+iteration 1
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: 0
+Elapsed time is 0.735074 seconds.
+----------------------------------------------
+iteration 2
+h_xy: -0.0016952540199*x2^2-6.99885558937e-05*x3^2-0.000167795866761*x2*x3
+Elapsed time is 1.252052 seconds.
+----------------------------------------------
+iteration 3
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.106566193526*x2^2-0.0986116309396*x3^2-0.108865225095*x2*x3
+Elapsed time is 1.885542 seconds.
+----------------------------------------------
+iteration 4
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0890326614698*x2^2-0.000402266592736*x3^2-1.12913941035e-05*x1*x2-0.000792382417292*x2*x3
+Elapsed time is 2.548360 seconds.
+----------------------------------------------
+iteration 5
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.000673445821964*x2^2-0.000641669667821*x3^2-1.43054484695e-05*x1*x2-1.85762512537e-05*x1*x3-0.000557437683077*x2*x3
+Elapsed time is 3.282270 seconds.
+----------------------------------------------
+iteration 6
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0112017617117*x2^2-0.00280892556929*x3^2-0.0039677053035*x2*x3
+Elapsed time is 4.097435 seconds.
+----------------------------------------------
+iteration 7
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.00211310806971*x2^2-0.00209134025227*x3^2-8.0388401202e-05*x1*x2-8.03623685692e-05*x1*x3-0.00217818623142*x2*x3
+Elapsed time is 4.942982 seconds.
+----------------------------------------------
+iteration 8
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: 0
+Elapsed time is 5.833489 seconds.
+----------------------------------------------
+iteration 9
+h_xy: -0.0016952540199*x2^2-6.99885558937e-05*x3^2-0.000167795866761*x2*x3
+Elapsed time is 6.717958 seconds.
+----------------------------------------------
+iteration 10
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.106566193526*x2^2-0.0986116309396*x3^2-0.108865225095*x2*x3
+Elapsed time is 7.735961 seconds.
+----------------------------------------------
+iteration 11
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0890326614698*x2^2-0.000402266592736*x3^2-1.12913941035e-05*x1*x2-0.000792382417292*x2*x3
+Elapsed time is 8.778985 seconds.
+----------------------------------------------
+iteration 12
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.000673445821964*x2^2-0.000641669667821*x3^2-1.43054484695e-05*x1*x2-1.85762512537e-05*x1*x3-0.000557437683077*x2*x3
+Elapsed time is 9.903221 seconds.
+----------------------------------------------
+iteration 13
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0112017617117*x2^2-0.00280892556929*x3^2-0.0039677053035*x2*x3
+Elapsed time is 11.191057 seconds.
+----------------------------------------------
+iteration 14
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.00211310806971*x2^2-0.00209134025227*x3^2-8.0388401202e-05*x1*x2-8.03623685692e-05*x1*x3-0.00217818623142*x2*x3
+Elapsed time is 12.903068 seconds.
+----------------------------------------------
+iteration 15
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: 0
+Elapsed time is 14.660287 seconds.
+----------------------------------------------
+iteration 16
+h_xy: -0.0016952540199*x2^2-6.99885558937e-05*x3^2-0.000167795866761*x2*x3
+Elapsed time is 16.433296 seconds.
+----------------------------------------------
+iteration 17
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.106566193526*x2^2-0.0986116309396*x3^2-0.108865225095*x2*x3
+Elapsed time is 18.449485 seconds.
+----------------------------------------------
+iteration 18
+Mosek warning (Step 1): Unbounded objective function (<a href="yalmip.github.io/debuggingunbounded">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0890326614698*x2^2-0.000402266592736*x3^2-1.12913941035e-05*x1*x2-0.000792382417292*x2*x3
+Elapsed time is 20.482064 seconds.
+----------------------------------------------
+iteration 19
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.000673445821964*x2^2-0.000641669667821*x3^2-1.43054484695e-05*x1*x2-1.85762512537e-05*x1*x3-0.000557437683077*x2*x3
+Elapsed time is 22.664328 seconds.
+----------------------------------------------
+iteration 20
+Mosek warning (Step 1): Numerical problems (<a href="yalmip.github.io/inside/debuggingnumerics">learn to debug</a>) (MOSEK-SDP)
+h_xy: -0.0112017617117*x2^2-0.00280892556929*x3^2-0.0039677053035*x2*x3
+Elapsed time is 24.949431 seconds.

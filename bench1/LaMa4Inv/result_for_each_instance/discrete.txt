@@ -1,0 +1,9 @@
+Begin_process:   ./CraigBenchmarks/benchmarks1/c/discrete.c
+GPT Answer: ['assert(1 - x1 * x1 - x2 * x2 >= 0);', 'assert(x1 >= -50 && x1 <= 50);', 'assert(x2 >= -50 && x2 <= 50);', 'assert(1 - x1*x1 - x2*x2 >= 0);']
+AnsSet: []
+Candidate: assert(1 - x1 * x1 - x2 * x2 >= 0);
+SMTLIB2: (assert (>= (- (- 1 (* x1 x1)) (* x2 x2)) 0))
+ (>= (- (- 1 (* x1 x1)) (* x2 x2)) 0)
+The answer is :  assert(1 - x1 * x1 - x2 * x2 >= 0);
+Time cost is :  135.10933184623718
+The proposal times is :  1

@@ -1,0 +1,8 @@
+Benchmark: z3sqrt
+----------------------------
+No solution is found
+No solution is found
+Depth: 5 | Time: 216.7877 s
+No solution is found
+No solution is found
+Depth: 6 | Time: 258.9511 s

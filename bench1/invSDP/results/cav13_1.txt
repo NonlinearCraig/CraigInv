@@ -1,0 +1,12 @@
+Elapsed time 38.714038 secondsafter1.083852e+01 seconds
+benchmark:cav13_1 with adeg=1, no solution
+after2.177665e+01 seconds
+benchmark:cav13_1 with adeg=2, no solution
+after4.175203e+01 seconds
+benchmark:cav13_1 with adeg=3, no solution
+after5.215606e+01 seconds
+benchmark:cav13_1 with adeg=4, no solution
+after6.260507e+01 seconds
+benchmark:cav13_1 with adeg=5, no solution
+after7.412521e+01 seconds
+benchmark:cav13_1 with adeg=6, no solution

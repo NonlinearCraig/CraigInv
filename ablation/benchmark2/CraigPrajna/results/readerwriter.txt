@@ -1,0 +1,520 @@
+Elapsed time is 0.296432 seconds.
+A feasible initial solution is found.
+    "37.0781620913-0.0607017632915*inv_eq(3)-0.061454341263*inv_eq(4)+1.56016382177*inv_eq(3)^2-0.00815848006606*inv_eq(3)*inv_eq(4)+1.55884974*inv_eq(4)^2"
+
+Elapsed time is 1.769198 seconds.
+iter:1
+inv_poly is:
+148.129422156+0.0180371947846*inv_eq(3)-0.00945920655296*inv_eq(4)+3.05004876716*inv_eq(3)^2-2.65036418746*inv_eq(3)*inv_eq(4)+5.03853882005*inv_eq(4)^2
+Elapsed time is 3.628416 seconds.
+iter:2
+inv_poly is:
+179.23667327-0.00586688053877*inv_eq(3)-0.00110987683133*inv_eq(4)+60.8715466568*inv_eq(3)^2+0.283062106583*inv_eq(3)*inv_eq(4)+60.6793426452*inv_eq(4)^2
+Elapsed time is 5.879275 seconds.
+iter:3
+inv_poly is:
+184.277912345+0.00290325519216*inv_eq(3)-0.00427059454621*inv_eq(4)+59.1737217265*inv_eq(3)^2+0.534363771989*inv_eq(3)*inv_eq(4)+59.173889204*inv_eq(4)^2
+Elapsed time is 9.012630 seconds.
+iter:4
+inv_poly is:
+184.603544673+0.00883218189635*inv_eq(3)+0.00122475264151*inv_eq(4)+59.0607120198*inv_eq(3)^2+0.517040984243*inv_eq(3)*inv_eq(4)+59.0824857012*inv_eq(4)^2
+Elapsed time is 12.228195 seconds.
+iter:5
+inv_poly is:
+184.498721302+0.00934283285305*inv_eq(3)+0.00827138009164*inv_eq(4)+59.0831445146*inv_eq(3)^2+0.520712861039*inv_eq(3)*inv_eq(4)+59.0906994892*inv_eq(4)^2
+Elapsed time is 17.940760 seconds.
+iter:6
+inv_poly is:
+190.492086663+9.95624248346e-05*inv_eq(3)-0.00346166706552*inv_eq(4)+66.9551766959*inv_eq(3)^2-0.00677675492761*inv_eq(3)*inv_eq(4)+66.9017688713*inv_eq(4)^2
+Elapsed time is 28.457616 seconds.
+iter:7
+inv_poly is:
+183.479101162+0.00495215934134*inv_eq(3)-0.0152895559931*inv_eq(4)+60.1856596625*inv_eq(3)^2+0.595440128996*inv_eq(3)*inv_eq(4)+60.2159600739*inv_eq(4)^2
+Elapsed time is 40.326220 seconds.
+iter:8
+inv_poly is:
+184.362004608-0.00766306522508*inv_eq(3)+0.00418294171518*inv_eq(4)+59.1392501019*inv_eq(3)^2+0.525391559776*inv_eq(3)*inv_eq(4)+59.1302991474*inv_eq(4)^2
+Elapsed time is 53.335173 seconds.
+iter:9
+inv_poly is:
+190.441194568-0.00137579687298*inv_eq(3)-0.00426217211284*inv_eq(4)+67.002062521*inv_eq(3)^2-0.00323215002278*inv_eq(3)*inv_eq(4)+66.9738392602*inv_eq(4)^2
+Elapsed time is 71.746923 seconds.
+iter:10
+inv_poly is:
+189.222698742+0.0107969153725*inv_eq(3)-0.0206267820136*inv_eq(4)+68.0774093939*inv_eq(3)^2+0.0891005061456*inv_eq(3)*inv_eq(4)+68.0735381*inv_eq(4)^2
+Elapsed time is 91.723167 seconds.
+iter:11
+inv_poly is:
+180.76571411+0.00307970725769*inv_eq(3)-0.00969614475182*inv_eq(4)+58.8141637775*inv_eq(3)^2+0.83895932904*inv_eq(3)*inv_eq(4)+58.8060494753*inv_eq(4)^2
+Elapsed time is 113.483043 seconds.
+iter:12
+inv_poly is:
+184.41449135-0.00703981734707*inv_eq(3)-0.00526931333028*inv_eq(4)+59.0581095562*inv_eq(3)^2+0.52732835827*inv_eq(3)*inv_eq(4)+59.0799240205*inv_eq(4)^2
+Elapsed time is 136.827992 seconds.
+iter:13
+inv_poly is:
+184.683998735-0.00583713170433*inv_eq(3)+0.0016065890991*inv_eq(4)+59.1561822813*inv_eq(3)^2+0.514236988116*inv_eq(3)*inv_eq(4)+59.1448815848*inv_eq(4)^2
+Elapsed time is 161.561895 seconds.
+iter:14
+inv_poly is:
+184.532239403-0.00206054361459*inv_eq(3)-0.00664277358771*inv_eq(4)+59.1047261838*inv_eq(3)^2+0.516574123914*inv_eq(3)*inv_eq(4)+59.1038377323*inv_eq(4)^2
+Elapsed time is 188.067370 seconds.
+iter:15
+inv_poly is:
+184.549856212+0.00176537197385*inv_eq(3)-0.0101365906118*inv_eq(4)+59.1324171916*inv_eq(3)^2+0.511471195177*inv_eq(3)*inv_eq(4)+59.1171079809*inv_eq(4)^2
+Elapsed time is 216.477883 seconds.
+iter:16
+inv_poly is:
+184.454381964-0.0186220089877*inv_eq(3)-0.00208520996226*inv_eq(4)+59.1212736865*inv_eq(3)^2+0.517676998411*inv_eq(3)*inv_eq(4)+59.138669863*inv_eq(4)^2
+Elapsed time is 246.792586 seconds.
+iter:17
+inv_poly is:
+184.534452719-0.000747415382894*inv_eq(3)-0.00342481088197*inv_eq(4)+59.1144722019*inv_eq(3)^2+0.514331230293*inv_eq(3)*inv_eq(4)+59.1196463662*inv_eq(4)^2
+Elapsed time is 278.874521 seconds.
+iter:18
+inv_poly is:
+184.55383032-0.00956330334087*inv_eq(3)-0.000962914310189*inv_eq(4)+59.1460523345*inv_eq(3)^2+0.512619718014*inv_eq(3)*inv_eq(4)+59.1592388439*inv_eq(4)^2
+Elapsed time is 312.786473 seconds.
+iter:19
+inv_poly is:
+190.448401522+0.00327130601155*inv_eq(3)-0.00370964401352*inv_eq(4)+66.9462707932*inv_eq(3)^2-0.00872982095165*inv_eq(3)*inv_eq(4)+66.9468947504*inv_eq(4)^2
+Elapsed time is 348.593854 seconds.
+iter:20
+inv_poly is:
+189.265080279+0.000919063781583*inv_eq(3)-0.00389963974226*inv_eq(4)+68.0619375523*inv_eq(3)^2+0.086200977749*inv_eq(3)*inv_eq(4)+68.0561739899*inv_eq(4)^2
+Elapsed time is 0.414382 seconds.
+A feasible initial solution is found.
+    "37.0781620913-0.0607017632915*r-0.061454341263*w+1.56016382177*r^2-0.00815848006606*r*w+1.55884974*w^2"
+
+Elapsed time is 1.950597 seconds.
+iter:1
+inv_poly is:
+148.129422156+0.0180371947846*r-0.00945920655296*w+3.05004876716*r^2-2.65036418746*r*w+5.03853882005*w^2
+Elapsed time is 3.783727 seconds.
+iter:2
+inv_poly is:
+179.23667327-0.00586688053877*r-0.00110987683133*w+60.8715466568*r^2+0.283062106583*r*w+60.6793426452*w^2
+Elapsed time is 6.060763 seconds.
+iter:3
+inv_poly is:
+184.277912345+0.00290325519216*r-0.00427059454621*w+59.1737217265*r^2+0.534363771989*r*w+59.173889204*w^2
+Elapsed time is 8.773365 seconds.
+iter:4
+inv_poly is:
+184.603544673+0.00883218189635*r+0.00122475264151*w+59.0607120198*r^2+0.517040984243*r*w+59.0824857012*w^2
+Elapsed time is 11.964535 seconds.
+iter:5
+inv_poly is:
+184.498721302+0.00934283285305*r+0.00827138009164*w+59.0831445146*r^2+0.520712861039*r*w+59.0906994892*w^2
+Elapsed time is 16.713658 seconds.
+iter:6
+inv_poly is:
+190.492086663+9.95624248346e-05*r-0.00346166706552*w+66.9551766959*r^2-0.00677675492761*r*w+66.9017688713*w^2
+Elapsed time is 22.602922 seconds.
+iter:7
+inv_poly is:
+183.479101162+0.00495215934134*r-0.0152895559931*w+60.1856596625*r^2+0.595440128996*r*w+60.2159600739*w^2
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/mtimes')" style="font-weight:bold"> * </a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/mtimes', 'D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\mtimes.m', 41)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\package\YALMIP-master\@sdpvar\mtimes.m',41,0)">line 41</a>)
+        Z = (Y'*X')'; % Optimized for this order (few variables * many variables)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CraigPrajna1>SOSnew', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\CraigPrajna1.m', 237)" style="font-weight:bold">CraigPrajna1>SOSnew</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\CraigPrajna1.m',237,0)">line 237</a>)
+        sum = sum + delta_cell{tail} * pre_list(i);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CraigPrajna1', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\CraigPrajna1.m', 101)" style="font-weight:bold">CraigPrajna1</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\CraigPrajna1.m',101,0)">line 101</a>)
+        sdp_cons = SOSnew([prelist{i},x_bound],ht_y, sdp_cons,0,wi_deg);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\run_all.m', 16)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigPrajna\run_all.m',16,0)">line 16</a>)
+        CraigPrajna1(benchmarks(i))
+} 
+run_all
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Unable to change current folder to
+'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\CraigInv\benchmarks2\CraigInv\benchmarks' (Name is
+nonexistent or not a folder).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 5)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',5,0)">line 5</a>)
+    cd(path);
+} 
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.468784 seconds.
+A feasible initial solution is found.
+{Unrecognized function or variable 'a'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 46)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',46,0)">line 46</a>)
+    p_val = double(a);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',46,0)
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.309870 seconds.
+A feasible initial solution is found.
+{Unrecognized function or variable 'h_x'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 52)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',52,0)">line 52</a>)
+    h_0=replace(h_x,a,p_val);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',52,0)
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.302480 seconds.
+A feasible initial solution is found.
+{Unrecognized function or variable 'h_x'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 52)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',52,0)">line 52</a>)
+    h_0=replace(h_x,coef,p_val);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',52,0)
+algorithm
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 3)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',3,0)">line 3</a>)
+run(strcat(benchmark,'.m'))
+} 
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.318269 seconds.
+A feasible initial solution is found.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 56)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',56,0)">line 56</a>)
+    fprintf(fileID, 'elapsedtime\n%.2f\n', elapsedTime);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',56,0)
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.308148 seconds.
+A feasible initial solution is found.
+7.95809703758+37.1456483519*n
+Elapsed time is 1.224439 seconds.
+    1 iteration solution is found. lambda is -0.0000000070 
+9.6124706841+45.1752098996*n
+{Unrecognized function or variable 'TOLERANCE'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 155)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',155,0)">line 155</a>)
+    if lam < TOLERANCE && max_abs_p>1
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',155,0)
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========fermat2========
+benchmark is fermat2
+Elapsed time is 0.327148 seconds.
+A feasible initial solution is found.
+7.95809703758+37.1456483519*n
+Elapsed time is 1.119544 seconds.
+    1 iteration solution is found. lambda is -0.0000000070 
+9.6124706841+45.1752098996*n
+------------------
+========firefly========
+benchmark is firefly
+Elapsed time is 0.276867 seconds.
+A feasible initial solution is found.
+9.77880173385
+Elapsed time is 1.148344 seconds.
+    1 iteration solution is found. lambda is -0.0000000002 
+14.6828672619-0.0152261608594*vd+0.0248779555651*vs+0.0459694983881*ve
+Elapsed time is 2.031116 seconds.
+    2 iteration solution is found. lambda is -0.0000000085 
+18.7177508072-0.0551524193959*vd+0.307774375058*vs+0.524226802098*ve
+------------------
+========illinois========
+benchmark is illinois
+Elapsed time is 0.186131 seconds.
+A feasible initial solution is found.
+5.90359174853+3.9243248601*inv_eq(4)
+Elapsed time is 1.149253 seconds.
+    1 iteration solution is found. lambda is -0.0000000016 
+55.5565923565+0.165310755627*vd-0.0281925357129*vs-0.0778394667085*ve+11.445242712*inv_eq(4)
+------------------
+========lcm========
+benchmark is lcm
+Elapsed time is 0.431339 seconds.
+A feasible initial solution is found.
+30.1159441966-0.00525245997258*a-0.00146351610471*b+0.00525124869831*x-0.000303505931859*y+0.00173696260847*inv_eq(5)+0.00801963889921*inv_eq(6)-0.000382538153055*c
+Elapsed time is 1.795428 seconds.
+    1 iteration solution is found. lambda is -0.0000000021 
+29.1263370923-0.076747790888*a-0.0595116994*b+0.162510210876*x+0.177884881123*y-0.0384440930681*inv_eq(5)+0.0276800204397*inv_eq(6)+0.000237665508203*c
+------------------
+========mannadiv========
+benchmark is mannadiv
+Elapsed time is 0.231614 seconds.
+A feasible initial solution is found.
+15.1021900664+10.432336017*x2+0.0325678075494*y1+0.0327157907429*y2+0.000135362271248*guard
+Elapsed time is 0.937775 seconds.
+    1 iteration solution is found. lambda is -0.0000000056 
+10.8396118682+20.9978059354*x2+1.62428035558*y1+0.732442874404*y2-0.0480854285055*guard
+------------------
+========mesi========
+benchmark is mesi
+Elapsed time is 0.222444 seconds.
+A feasible initial solution is found.
+2.46137478657-0.0439185015571*inv_eq(1)-0.0458336932162*inv_eq(2)-0.0477796337076*inv_eq(3)+13.0829270618*inv_eq(4)
+Elapsed time is 1.028253 seconds.
+    1 iteration solution is found. lambda is -0.0000000001 
+-1.58324868645e-07+3.72380100373e-10*inv_eq(1)-1.39019813583e-08*inv_eq(2)-1.43340455139e-08*inv_eq(3)-1.59201115778e-08*inv_eq(4)
+Elapsed time is 1.903509 seconds.
+    2 iteration solution is found. lambda is -0.0000000001 
+4.47111179814e-07+1.01950047467e-08*inv_eq(1)-7.38596515705e-08*inv_eq(2)-4.39630176387e-08*inv_eq(3)-1.5024582031e-07*inv_eq(4)
+Elapsed time is 2.922473 seconds.
+    3 iteration solution is found. lambda is -0.0000000006 
+6.51943810847e-06+3.81746171335e-08*inv_eq(1)-6.09049549889e-07*inv_eq(2)-3.12561013046e-07*inv_eq(3)-8.88573795879e-07*inv_eq(4)
+Elapsed time is 4.063512 seconds.
+    4 iteration solution is found. lambda is -0.0000000055 
+0.000269917462125+1.26015789552e-05*inv_eq(1)-9.54081554621e-06*inv_eq(2)+4.47527287966e-06*inv_eq(3)-1.19491425061e-05*inv_eq(4)
+Elapsed time is 5.332878 seconds.
+    5 iteration solution is found. lambda is -0.0000000002 
+0.00135312047698+3.06170787646e-05*inv_eq(1)-1.14899427601e-05*inv_eq(2)+1.95110278454e-05*inv_eq(3)-1.81512213152e-06*inv_eq(4)
+Elapsed time is 6.710227 seconds.
+    6 iteration solution is found. lambda is -0.0000000021 
+0.115226042607+0.00105237216163*inv_eq(1)-0.000373339490161*inv_eq(2)+0.000887407060238*inv_eq(3)+0.00073974996223*inv_eq(4)
+Elapsed time is 8.217743 seconds.
+    7 iteration solution is found. lambda is -0.0000000011 
+5.07568134535+0.014547822417*inv_eq(1)-0.00743887612009*inv_eq(2)+0.0119235361398*inv_eq(3)+0.0123290859724*inv_eq(4)
+------------------
+========moesi========
+benchmark is moesi
+Elapsed time is 0.264851 seconds.
+A feasible initial solution is found.
+26.30007991-0.0282248668178*vm-0.0288731797839*vs-0.0295383704053*inv_eq(3)-0.000183494900339*inv_eq(4)+3.45836158521e-05*inv_eq(5)
+Elapsed time is 1.550783 seconds.
+    1 iteration solution is found. lambda is -0.0000000008 
+22.7244739137+0.00791249494476*vm+0.0105084608957*vs+0.0344204032824*inv_eq(3)+0.0355987986195*inv_eq(4)+0.0198920517603*inv_eq(5)
+Elapsed time is 3.189531 seconds.
+    2 iteration solution is found. lambda is -0.0000000016 
+22.613311993+0.0235695828925*vm+0.02890386747*vs+0.0980651139297*inv_eq(3)+0.0489375120527*inv_eq(4)+0.0173218343534*inv_eq(5)
+------------------
+========petter========
+benchmark is petter
+Elapsed time is 0.164060 seconds.
+A feasible initial solution is found.
+4.64793236761+0.0493976956336*inv_eq(1)+0.0485247381921*inv_eq(2)+0.630190867543*inv_eq(1)^2-0.00231942445819*inv_eq(1)*inv_eq(2)+0.63561830067*inv_eq(2)^2
+Elapsed time is 0.554308 seconds.
+    1 iteration solution is found. lambda is -0.0000000335 
+26.3879460155+2.92019545878*inv_eq(1)-4.8317601982*inv_eq(2)+15.674056402*inv_eq(1)^2+8.66217312468*inv_eq(1)*inv_eq(2)+7.49842552296*inv_eq(2)^2
+------------------
+========readerwriter========
+benchmark is readerwriter
+Elapsed time is 0.273906 seconds.
+A feasible initial solution is found.
+37.0781620913-0.0607017632915*r-0.061454341263*inv_eq(4)+1.56016382177*r^2-0.00815848006606*r*inv_eq(4)+1.55884974*inv_eq(4)^2
+Elapsed time is 1.513171 seconds.
+    1 iteration solution is found. lambda is -0.0000000034 
+33.8139126607+0.0818152222437*r+0.084202895622*inv_eq(4)+11.0073949739*r^2-0.0187590400313*r*inv_eq(4)+10.9992327447*inv_eq(4)^2
+------------------
+========wensely========
+benchmark is wensely
+Elapsed time is 0.479743 seconds.
+A feasible initial solution is found.
+-2.74401895329e-06
+Elapsed time is 1.955702 seconds.
+    1 iteration solution is found. lambda is -0.0000000023 
+-4.13887259544e-05+7.46480435868e-06*ve-2.87794396452e-06*ve^2
+Elapsed time is 3.733083 seconds.
+    2 iteration solution is found. lambda is -0.0000000001 
+-2.47359719124e-06+5.22452627391e-07*ve-1.78482077075e-07*ve^2
+Elapsed time is 5.912109 seconds.
+    3 iteration solution is found. lambda is -0.0000000025 
+-4.70827923715e-05+9.28553263714e-06*ve-3.26780848996e-06*ve^2
+Elapsed time is 8.914005 seconds.
+    4 iteration solution is found. lambda is -0.0000000001 
+-2.19890849726e-06+4.60429170463e-07*ve-1.57237462031e-07*ve^2
+Elapsed time is 13.063273 seconds.
+    5 iteration solution is found. lambda is -0.0000000126 
+-0.000204619118233+4.34808857897e-05*ve-1.52971337316e-05*ve^2
+Elapsed time is 17.921418 seconds.
+    6 iteration solution is found. lambda is -0.0000000002 
+-3.72922742911e-06+8.61322981232e-07*ve-2.73511889349e-07*ve^2
+Elapsed time is 24.429758 seconds.
+    7 iteration solution is found. lambda is -0.0000000077 
+-0.000122944288572+2.57459965886e-05*ve-9.28930387467e-06*ve^2
+Elapsed time is 32.588819 seconds.
+    8 iteration solution is found. lambda is -0.0000000094 
+-0.000173689206636+3.70569366206e-05*ve-1.19239436825e-05*ve^2
+Elapsed time is 41.525143 seconds.
+    9 iteration solution is found. lambda is -0.0000000118 
+-0.000220030301499+4.37909342559e-05*ve-1.49004585601e-05*ve^2
+Elapsed time is 51.517522 seconds.
+   10 iteration solution is found. lambda is -0.0000000090 
+-0.000162914329637+3.57155266219e-05*ve-1.13285565475e-05*ve^2
+Elapsed time is 61.820160 seconds.
+   11 iteration solution is found. lambda is -0.0000000121 
+-0.000229246184475+4.52976424429e-05*ve-1.52076994513e-05*ve^2
+Elapsed time is 73.100707 seconds.
+   12 iteration solution is found. lambda is -0.0000000079 
+-0.000142539228276+3.22317370931e-05*ve-1.00191196058e-05*ve^2
+Elapsed time is 85.439486 seconds.
+   13 iteration solution is found. lambda is -0.0000000005 
+-8.58770761224e-06+1.68114674392e-06*ve-6.14486100148e-07*ve^2
+Elapsed time is 98.988976 seconds.
+   14 iteration solution is found. lambda is -0.0000000002 
+-4.53665489323e-06+1.05071182843e-06*ve-3.5016057527e-07*ve^2
+Elapsed time is 112.917776 seconds.
+   15 iteration solution is found. lambda is -0.0000000155 
+-0.000249120681833+5.29937680416e-05*ve-1.87404613662e-05*ve^2
+Elapsed time is 127.856992 seconds.
+   16 iteration solution is found. lambda is -0.0000000152 
+-0.000276709440098+5.42024355678e-05*ve-1.91332490806e-05*ve^2
+Elapsed time is 144.158165 seconds.
+   17 iteration solution is found. lambda is -0.0000000149 
+-0.0002723925304+5.3340899735e-05*ve-1.87759444277e-05*ve^2
+Elapsed time is 161.322282 seconds.
+   18 iteration solution is found. lambda is -0.0000000158 
+-0.000288984873346+5.57850514602e-05*ve-1.97359965156e-05*ve^2
+Elapsed time is 179.980105 seconds.
+   19 iteration solution is found. lambda is -0.0000000152 
+-0.000277304728975+5.40662103554e-05*ve-1.90438076693e-05*ve^2
+Elapsed time is 199.176045 seconds.
+   20 iteration solution is found. lambda is -0.0000000157 
+-0.000285464785037+5.5556503821e-05*ve-1.96627624813e-05*ve^2
+------------------
+========z3sqrt========
+benchmark is z3sqrt
+Elapsed time is 0.383371 seconds.
+A feasible initial solution is found.
+19.8005229833+20.3071304002*ve
+Elapsed time is 1.692611 seconds.
+    1 iteration solution is found. lambda is -0.0000000076 
+15.4053860086+15.8124244109*ve
+------------------
+========ex_sqrt========
+benchmark is ex_sqrt
+Elapsed time is 0.344519 seconds.
+A feasible initial solution is found.
+7.01083930351+2.5999499109*n+3.5946427691*a-13.3705624416*a^2+6.41240188624*n^2+0.990466525688*n*a
+Elapsed time is 1.112693 seconds.
+    1 iteration solution is found. lambda is -0.0000000288 
+-2.34823430174e-05-1.15537286337e-05*n+3.04402047459e-05*a-5.45514958768e-06*a^2-6.32568072699e-06*n^2-4.07248614717e-06*n*a
+Elapsed time is 1.964009 seconds.
+    2 iteration solution is found. lambda is -0.0000000028 
+3.10264353751e-06-6.58705006722e-06*n+1.31234494575e-05*a-5.95124837756e-07*a^2+1.16226578994e-07*n^2-3.45222194287e-06*n*a
+Elapsed time is 2.929379 seconds.
+    3 iteration solution is found. lambda is -0.0000000002 
+4.23234656823e-06-2.64934031608e-06*n+6.69659039486e-06*a-4.04900178839e-08*a^2+2.95261113151e-07*n^2-8.74297304566e-07*n*a
+Elapsed time is 4.006290 seconds.
+    4 iteration solution is found. lambda is -0.0000000100 
+0.000683645475771-0.000318659453678*n+0.000894140154473*a-5.27644355168e-05*a^2+6.42026011841e-05*n^2-1.90392211661e-06*n*a
+Elapsed time is 5.283110 seconds.
+    5 iteration solution is found. lambda is -0.0000000034 
+0.0194001169064-0.00356299225161*n+0.0219303595244*a-0.00196907972783*a^2+0.000692935011736*n^2+0.000699051214651*n*a
+Elapsed time is 6.645601 seconds.
+    6 iteration solution is found. lambda is -0.0000000040 
+1.33155493911-0.181797307943*n+0.403157196125*a-0.0315688912209*a^2+0.0124736629357*n^2+0.00811745483057*n*a
+------------------
+========freire1========
+benchmark is freire1
+Elapsed time is 0.237407 seconds.
+A feasible initial solution is found.
+7.21570608294+0.820082217747*x+0.0385968129101*r
+Elapsed time is 0.684237 seconds.
+    1 iteration solution is found. lambda is -0.0000000211 
+37.6105212837+2.87172454437*x+0.297000566642*r-2.05469881282e-08*r^2-4.06287701133e-08*x^2+5.1975189123e-10*x*r
+------------------
+========freire2========
+benchmark is freire2
+Elapsed time is 0.300277 seconds.
+A feasible initial solution is found.
+-4.42126375443+8.5936210444*x+9.99010533705*r-8.87816500677*r^2+7.16533059873*x^2+6.4509552764*x*r
+Elapsed time is 1.003799 seconds.
+    1 iteration solution is found. lambda is -0.0000000023 
+0.000862680303391-0.000506382513557*x+0.000957786850021*r-0.000151177831698*r^2+6.46131414895e-05*x^2-0.000141929153932*x*r
+Elapsed time is 1.682089 seconds.
+    2 iteration solution is found. lambda is -0.0000000032 
+0.0856108563724-0.0189657422535*x+0.00581270497036*r-0.00134053010495*r^2+0.0012150442756*x^2-0.000598786562294*x*r
+Elapsed time is 2.410030 seconds.
+    3 iteration solution is found. lambda is -0.0000000039 
+1.71360469213-0.404189912247*x+4.37461923676*r-0.148716966052*r^2+0.0215059615931*x^2-0.112113586216*x*r
+------------------
+========berkeley========
+benchmark is berkeley
+Elapsed time is 0.209514 seconds.
+A feasible initial solution is found.
+6.70125754771-1.92401246387*vu-2.43077568728*ve-2.43077568728*vn+0.316046368528*vi
+Elapsed time is 0.860276 seconds.
+    1 iteration solution is found. lambda is -0.0000000011 
+36.7288108845+1.10002721686*vu+1.56363819746*ve+1.6499220582*vn+4.35565041291*vi
+------------------
+========cohencu========
+benchmark is cohencu
+Elapsed time is 0.221735 seconds.
+A feasible initial solution is found.
+-8.72934999993+0.0568279787918*n+16.3881602679*vars(4)
+Elapsed time is 0.666107 seconds.
+    1 iteration solution is found. lambda is -0.0000000298 
+-28.5576754643+2.30776502291*n+80.9350170326*vars(4)
+------------------
+========cohendiv========
+benchmark is cohendiv
+Elapsed time is 0.744614 seconds.
+A feasible initial solution is found.
+64.2676242748-0.00519415482928*vy+0.0092238046426*vr-0.000134920515891*vd
+Elapsed time is 3.440317 seconds.
+    1 iteration solution is found. lambda is -0.0000000091 
+53.2116457177+0.425030049988*vy-0.289275862034*vr+0.0598875137612*vd
+------------------
+========euclidex2========
+benchmark is euclidex2
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/vertcat')" style="font-weight:bold">sdpvar/vertcat</a>
+All rows in the bracketed expression must have the same number of columns.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm>SOSnew', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 249)" style="font-weight:bold">algorithm>SOSnew</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',249,0)">line 249</a>)
+        sdp_var = [sdp_var; delta_coef_cell{tail}];
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 18)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',18,0)">line 18</a>)
+    sdp_cons = SOSnew([prelist{i},x_bound],inv_ineq, sdp_cons,0,wi_deg);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 15)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',15,0)">line 15</a>)
+        algorithm(benchmarks(i))
+} 
+run_all
+[Warning: Escaped character '\U' is not valid. See 'doc sprintf' for supported special characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 9)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',9,0)">line 9</a>)] 
+C:========euclidex2========
+benchmark is euclidex2
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/vertcat')" style="font-weight:bold">sdpvar/vertcat</a>
+All rows in the bracketed expression must have the same number of columns.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm>SOSnew', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 249)" style="font-weight:bold">algorithm>SOSnew</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',249,0)">line 249</a>)
+        sdp_var = [sdp_var; delta_coef_cell{tail}];
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('algorithm', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m', 18)" style="font-weight:bold">algorithm</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\algorithm.m',18,0)">line 18</a>)
+    sdp_cons = SOSnew([prelist{i},x_bound],inv_ineq, sdp_cons,0,wi_deg);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all', 'C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m', 16)" style="font-weight:bold">run_all</a> (<a href="matlab: opentoline('C:\Users\zhaoy\Desktop\CraigInv-main\ablation\benchmark2\CraigInv\run_all.m',16,0)">line 16</a>)
+        algorithm(benchmarks(i))
+} 

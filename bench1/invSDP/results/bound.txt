@@ -1,0 +1,19 @@
+benchmark is bound
+d is 1
+benchmark:bound with adeg=1, no solution
+Elapsed time: 381.126193 seconds
+------------------
+benchmark is bound
+d is 2
+benchmark:bound with adeg=2, no solution
+Elapsed time: 759.840462 seconds
+------------------
+benchmark is bound
+d is 3
+benchmark:bound with adeg=3, no solution
+Elapsed time: 1134.179681 seconds
+------------------
+benchmark is bound
+d is 4
+benchmark:bound with adeg=4, no solution
+Elapsed time: 1528.377847 seconds

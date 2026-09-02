@@ -1,0 +1,9 @@
+Directly obtained from the result of Iter=0 in CraigInv, include verify time.
+
+logistic: 0.11s
+discrete: 0.51s
+circuit: 0.15s
+car: 0.1s
+
+
+

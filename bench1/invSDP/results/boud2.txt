@@ -1,0 +1,20 @@
+------------------
+benchmark is bound2
+d is 1
+benchmark:bound2 with adeg=1, no solution
+Elapsed time: 263.751541 seconds
+------------------
+benchmark is bound2
+d is 2
+benchmark:bound2 with adeg=2, no solution
+Elapsed time: 531.341279 seconds
+------------------
+benchmark is bound2
+d is 3
+benchmark:bound2 with adeg=3, no solution
+Elapsed time: 792.828889 seconds
+------------------
+benchmark is bound2
+d is 4
+benchmark:bound2 with adeg=4, no solution
+Elapsed time: 1056.294223 seconds
